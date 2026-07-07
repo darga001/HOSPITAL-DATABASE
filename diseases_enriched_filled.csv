@@ -1,0 +1,797 @@
+disease_name,category,body_system,is_chronic,is_autoimmune,is_infectious,infection_type,is_tumor,is_operable,is_contagious,is_genetic,is_degenerative,is_treatable,is_curable
+Anemia of chronic disease,Hematology,Hematologic,True,False,False,none,False,False,False,False,False,True,False
+Dysthymic disorder,Psychiatry,Mental/Behavioral,True,False,False,none,False,False,False,False,False,True,False
+Scarlet fever,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Hypertensive heart disease,Cardiology,Cardiovascular,True,False,False,none,False,False,False,False,False,True,False
+Drug abuse (barbiturates),Psychiatry,Mental/Behavioral,True,False,False,none,False,False,False,False,False,True,False
+Polycystic ovarian syndrome (PCOS),Gynecology/Obstetrics,Genitourinary/Reproductive,True,False,False,none,False,True,False,True,False,True,False
+Encephalitis,Neurology,Neurological,False,False,False,none,False,False,False,False,False,True,False
+Cyst of the eyelid,Oncology,Ophthalmologic,False,False,False,none,False,True,False,False,False,True,True
+Balanitis,Urology,Genitourinary/Reproductive,False,False,False,none,False,False,False,False,False,True,True
+Foreign body in the throat,Trauma/Orthopedics,Respiratory,False,False,False,none,False,False,False,False,False,True,True
+Drug abuse (cocaine),Psychiatry,Mental/Behavioral,True,False,False,none,False,False,False,False,False,True,False
+Optic neuritis,Neurology,Neurological,False,False,False,none,False,False,False,False,False,True,True
+Alcohol withdrawal,Psychiatry,Mental/Behavioral,True,False,False,none,False,False,False,False,False,True,False
+Premature atrial contractions (PACs),Cardiology,Cardiovascular,False,False,False,none,False,False,False,False,False,True,True
+Hemiplegia,Neurology,Neurological,False,False,False,none,False,False,False,False,False,True,False
+Hammer toe,Orthopedics,Musculoskeletal,False,False,False,none,False,False,False,False,False,True,True
+Open wound of the cheek,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Joint effusion,Orthopedics,Musculoskeletal,False,False,False,none,False,False,False,False,False,True,True
+Open wound of the knee,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Meningioma,Oncology,Neurological,False,False,False,none,True,True,False,False,False,True,True
+Brain cancer,Oncology,Neurological,False,False,False,none,True,True,False,False,False,True,False
+Placental abruption,Gynecology/Obstetrics,Genitourinary/Reproductive,False,False,False,none,False,True,False,False,False,True,True
+Seasonal allergies (hay fever),Allergy/Immunology,Immune/Systemic,False,False,False,none,False,False,False,False,False,True,True
+Lung cancer,Oncology,Respiratory,False,False,False,none,True,True,False,False,False,True,False
+Eye alignment disorder,Ophthalmology,Ophthalmologic,False,False,False,none,False,False,False,False,False,True,True
+Headache after lumbar puncture,Neurology,Neurological,False,False,False,none,False,False,False,False,False,True,True
+Pyloric stenosis,Gastroenterology,Gastrointestinal,False,False,False,none,False,False,False,False,False,True,True
+Salivary gland disorder,Gastroenterology,Oral/Dental,False,False,False,none,False,False,False,False,False,True,True
+Osteochondrosis,Orthopedics,Musculoskeletal,False,False,False,none,False,False,False,False,False,True,True
+Injury to the knee,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Metabolic disorder,Endocrinology,Endocrine/Metabolic,False,False,False,none,False,False,False,False,False,True,True
+Vaginitis,Gynecology/Obstetrics,Genitourinary/Reproductive,False,False,False,none,False,False,False,False,False,True,True
+Sick sinus syndrome,Cardiology,Cardiovascular,False,False,False,none,False,False,False,True,False,True,False
+Tinnitus of unknown cause,ENT,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Glaucoma,Ophthalmology,Ophthalmologic,True,False,False,none,False,False,False,False,False,True,False
+Eating disorder,Psychiatry,Mental/Behavioral,True,False,False,none,False,False,False,False,False,True,False
+Transient ischemic attack,Neurology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Pyelonephritis,Nephrology/Urology,Genitourinary/Reproductive,False,False,False,none,False,False,False,False,False,True,True
+Rotator cuff injury,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Chronic pain disorder,General Medicine,Multisystem,True,False,False,none,False,False,False,False,False,True,False
+Problem during pregnancy,Gynecology/Obstetrics,Genitourinary/Reproductive,False,False,False,none,False,False,False,False,False,True,True
+Liver cancer,Oncology,Gastrointestinal,False,False,False,none,True,True,False,False,False,True,False
+Atelectasis,Pulmonology,Respiratory,False,False,False,none,False,False,False,False,False,True,True
+Injury to the hand,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Choledocholithiasis,Gastroenterology,Gastrointestinal,False,False,False,none,False,False,False,False,False,True,True
+Injury to the hip,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Cirrhosis,Gastroenterology,Gastrointestinal,False,False,False,none,False,False,False,False,False,True,False
+Thoracic aortic aneurysm,Cardiology,Cardiovascular,False,False,False,none,False,False,False,False,False,True,True
+Subdural hemorrhage,Neurology,Neurological,False,False,False,none,False,False,False,False,False,True,True
+Congenital rubella,Genetics,Multisystem/Genetic,False,False,False,none,False,False,False,False,False,True,True
+Diabetic retinopathy,Endocrinology,Endocrine/Metabolic,False,False,False,none,False,False,False,False,False,True,True
+Fibromyalgia,Rheumatology,Multisystem,True,False,False,none,False,False,False,False,False,True,False
+Ischemia of the bowel,Gastroenterology,Gastrointestinal,False,False,False,none,False,False,False,False,False,True,True
+Fetal alcohol syndrome,Genetics,Multisystem/Genetic,False,False,False,none,False,False,False,True,False,True,False
+Peritonitis,Gastroenterology,Gastrointestinal,False,False,False,none,False,False,False,False,False,True,True
+Injury to the abdomen,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Acute pancreatitis,Gastroenterology,Gastrointestinal,False,False,False,none,False,False,False,False,False,True,True
+Thrombophlebitis,Cardiology,Cardiovascular,False,False,False,none,False,False,False,False,False,True,True
+Asthma,Pulmonology,Respiratory,True,False,False,none,False,False,False,False,False,True,False
+Foreign body in the vagina,Gynecology/Obstetrics,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Restless leg syndrome,Neurology,Neurological,True,False,False,none,False,False,False,True,False,True,False
+Emphysema,Pulmonology,Respiratory,True,False,False,none,False,False,False,False,False,True,False
+Cysticercosis,Dermatology,Oncologic/Neoplastic,False,False,False,none,False,True,False,False,False,True,True
+Induced abortion,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Teething syndrome,Genetics,Multisystem/Genetic,False,False,False,none,False,False,False,True,False,True,True
+Infectious gastroenteritis,Infectious Disease,Gastrointestinal,False,False,False,none,False,False,False,False,False,True,True
+Acute sinusitis,Pulmonology,Respiratory,False,False,False,none,False,False,False,False,False,True,True
+Von Hippel-Lindau disease,Orthopedics,Musculoskeletal,True,False,False,none,False,False,False,False,False,True,False
+Substance-related mental disorder,Psychiatry,Mental/Behavioral,True,False,False,none,False,False,False,False,False,True,False
+Postpartum depression,Psychiatry,Mental/Behavioral,False,False,False,none,False,False,False,False,False,True,True
+Coronary atherosclerosis,Cardiology,Cardiovascular,True,False,False,none,False,False,False,False,False,True,False
+Spondylitis,Rheumatology,Multisystem,True,True,False,none,False,False,False,False,False,True,False
+Pituitary adenoma,Oncology,Endocrine/Metabolic,False,False,False,none,True,True,False,False,False,True,False
+Uterine fibroids,Gynecology/Obstetrics,Genitourinary/Reproductive,True,False,False,none,True,True,False,False,False,True,False
+Idiopathic nonmenstrual bleeding,Gynecology/Obstetrics,Genitourinary/Reproductive,False,False,False,none,False,False,False,False,False,True,True
+Chalazion,Ophthalmology,Ophthalmologic,False,False,False,none,False,False,False,False,False,True,True
+Ovarian torsion,Gynecology/Obstetrics,Genitourinary/Reproductive,False,False,False,none,False,True,False,False,False,True,True
+Retinopathy due to high blood pressure,Ophthalmology,Hematologic,True,False,False,none,False,False,False,False,False,True,False
+Vaginal yeast infection,Infectious Disease,Genitourinary/Reproductive,False,False,True,fungal,False,False,False,False,False,True,True
+Mastoiditis,ENT,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Lung contusion,Trauma/Orthopedics,Respiratory,False,False,False,none,False,False,False,False,False,True,True
+Hypertrophic obstructive cardiomyopathy (HOCM),Cardiology,Cardiovascular,False,False,False,none,False,False,False,False,False,True,True
+Ingrown toe nail,Orthopedics,Musculoskeletal,False,False,False,none,False,False,False,False,False,True,True
+Pulmonary eosinophilia,Pulmonology,Respiratory,False,False,False,none,False,False,False,False,False,True,True
+Open wound of the hip,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Corneal disorder,Ophthalmology,Ophthalmologic,False,False,False,none,False,False,False,False,False,True,True
+Foreign body in the gastrointestinal tract,Trauma/Orthopedics,Gastrointestinal,False,False,False,none,False,False,False,False,False,True,True
+Endophthalmitis,Ophthalmology,Ophthalmologic,False,False,False,none,False,False,False,False,False,True,True
+Intestinal malabsorption,Gastroenterology,Gastrointestinal,False,False,False,none,False,False,False,False,False,True,True
+Lead poisoning,Toxicology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Viral warts,Infectious Disease,Dermatologic,False,False,False,viral,False,False,False,False,False,True,True
+Hyperhidrosis,General Medicine,Multisystem,True,False,False,none,False,False,False,False,False,True,False
+Stroke,Neurology,Neurological,False,False,False,none,False,False,False,False,False,True,True
+Pilonidal cyst,Dermatology,Oncologic/Neoplastic,False,False,False,none,False,True,False,False,False,True,True
+Crushing injury,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Normal pressure hydrocephalus,Neurology,Neurological,True,False,False,none,False,False,False,False,False,True,False
+Alopecia,Dermatology,Dermatologic,False,False,False,none,False,False,False,False,False,True,True
+Hashimoto thyroiditis,Endocrinology,Endocrine/Metabolic,True,True,False,none,False,False,False,False,False,True,False
+Flat feet,General Medicine,Musculoskeletal,True,False,False,none,False,False,False,False,False,True,False
+Nonalcoholic liver disease (NASH),Gastroenterology,Gastrointestinal,True,False,False,none,False,False,False,False,False,True,False
+Hemarthrosis,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Pelvic organ prolapse,Gynecology,Genitourinary/Reproductive,False,False,False,none,False,False,False,False,False,True,True
+Fracture of the arm,Musculoskeletal,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Coagulation (bleeding) disorder,Hematology,Hematologic,False,False,False,none,False,False,False,False,False,True,True
+Panic disorder,Psychiatry,Mental/Behavioral,True,False,False,none,False,False,False,False,False,True,False
+Vocal cord polyp,Oncology,Oncologic/Neoplastic,False,False,False,none,False,True,False,False,False,True,True
+Turner syndrome,Genetics,Multisystem/Genetic,True,False,False,none,False,False,False,True,False,True,False
+Cryptorchidism,Urology,Genitourinary/Reproductive,True,False,False,none,False,False,False,False,False,True,False
+Poisoning due to ethylene glycol,Toxicology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Atrophic vaginitis,Gynecology/Obstetrics,Genitourinary/Reproductive,False,False,False,none,False,False,False,False,False,True,True
+Fracture of the hand,Musculoskeletal,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Cellulitis or abscess of mouth,Dentistry/Oral Health,Oral/Dental,False,False,False,none,False,False,False,False,False,True,True
+Food allergy,Allergy/Immunology,Immune/Systemic,False,False,False,none,False,False,False,False,False,True,True
+Labyrinthitis,ENT,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Anxiety,Psychiatry,Mental/Behavioral,True,False,False,none,False,False,False,False,False,True,False
+Impulse control disorder,Psychiatry,Mental/Behavioral,True,False,False,none,False,False,False,False,False,True,False
+Stenosis of the tear duct,Ophthalmology,Ophthalmologic,False,False,False,none,False,False,False,False,False,True,True
+Abscess of nose,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Omphalitis,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Leukemia,Oncology,Oncologic/Neoplastic,True,False,False,none,False,False,False,False,False,True,False
+Bell palsy,Neurology,Neurological,False,False,False,none,False,False,False,False,False,True,True
+Conjunctivitis due to allergy,Allergy/Immunology,Ophthalmologic,False,False,False,none,False,False,False,False,False,True,True
+Drug reaction,Toxicology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Adrenal cancer,Oncology,Endocrine/Metabolic,False,False,False,none,True,True,False,False,False,True,False
+Myopia,Ophthalmology,Ophthalmologic,True,False,False,none,False,False,False,False,False,True,False
+Osteoarthritis,Musculoskeletal,Musculoskeletal,True,False,False,none,False,False,False,False,False,True,False
+Thyroid disease,Endocrinology,Endocrine/Metabolic,True,False,False,none,False,False,False,False,False,True,False
+Pharyngitis,Pulmonology,Respiratory,False,False,False,none,False,False,False,False,False,True,True
+Chronic rheumatic fever,Rheumatology,Multisystem,True,False,False,none,False,False,False,False,False,True,False
+Hypocalcemia,Endocrinology,Endocrine/Metabolic,False,False,False,none,False,False,False,False,False,True,True
+Macular degeneration,Ophthalmology,Ophthalmologic,True,False,False,none,False,False,False,False,False,True,False
+Pneumonia,Infectious Disease,Respiratory,False,False,False,none,False,False,False,False,False,True,True
+Cold sore,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Premature ventricular contractions (PVCs),Cardiology,Cardiovascular,False,False,False,none,False,False,False,False,False,True,True
+Chancroid,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Testicular cancer,Oncology,Genitourinary/Reproductive,False,False,False,none,True,True,False,False,False,True,False
+Hydrocephalus,Neurology,Neurological,True,False,False,none,False,False,False,False,False,True,False
+Breast cancer,Oncology,Genitourinary/Reproductive,False,False,False,none,True,True,False,False,False,True,False
+Anemia due to malignancy,Hematology,Hematologic,False,False,False,none,False,False,False,False,False,True,True
+Esophageal varices,Cardiology,Cardiovascular,False,False,False,none,False,False,False,False,False,True,True
+Endometrial cancer,Oncology,Genitourinary/Reproductive,False,False,False,none,True,True,False,False,False,True,False
+Cystic Fibrosis,Dermatology,Oncologic/Neoplastic,True,False,False,none,False,True,False,True,False,True,False
+Intertrigo (skin condition),Dermatology,Integumentary,False,False,False,none,False,False,False,False,False,True,True
+Parathyroid adenoma,Endocrinology,Endocrine/Metabolic,False,False,False,none,True,True,False,False,False,True,False
+Glucocorticoid deficiency,Endocrinology,Endocrine/Metabolic,False,False,False,none,False,False,False,False,False,True,True
+Temporomandibular joint disorder,Orthopedics,Musculoskeletal,False,False,False,none,False,False,False,False,False,True,True
+Wilson disease,Genetics,Multisystem/Genetic,True,False,False,none,False,False,False,False,False,True,False
+Vesicoureteral reflux,Infectious Disease,Genitourinary/Reproductive,True,False,False,none,False,False,False,False,False,True,False
+Vitamin A deficiency,Nutrition,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Gonorrhea,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Fracture of the rib,Musculoskeletal,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Ependymoma,Oncology,Oncologic/Neoplastic,False,False,False,none,False,True,False,False,False,True,True
+Hepatitis due to a toxin,Toxicology,Gastrointestinal,False,False,False,none,False,False,False,False,False,True,True
+Vaginal cyst,Gynecology/Obstetrics,Genitourinary/Reproductive,False,False,False,none,False,True,False,False,False,True,True
+Open wound of the shoulder,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Ectopic pregnancy,Gynecology/Obstetrics,Genitourinary/Reproductive,False,False,False,none,False,False,False,False,False,True,True
+Chronic knee pain,Orthopedics,Musculoskeletal,True,False,False,none,False,False,False,False,False,True,False
+Pinguecula,Ophthalmology,Ophthalmologic,False,False,False,none,False,False,False,False,False,True,True
+Hypergammaglobulinemia,Hematology,Hematologic,False,False,False,none,False,False,False,False,False,True,True
+Alcohol abuse,Psychiatry,Mental/Behavioral,True,False,False,none,False,False,False,False,False,True,False
+Carpal tunnel syndrome,Orthopedics,Musculoskeletal,False,False,False,none,False,False,False,True,False,True,False
+Pituitary disorder,Endocrinology,Endocrine/Metabolic,False,False,False,none,False,False,False,False,False,True,True
+Kidney stone,Nephrology/Urology,Genitourinary,False,False,False,none,False,True,False,False,False,True,True
+Autism,Psychiatry,Mental/Behavioral,True,False,False,none,False,False,False,False,False,True,False
+Cat scratch disease,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Chronic glaucoma,Ophthalmology,Ophthalmologic,True,False,False,none,False,False,False,False,False,True,False
+Retinal detachment,Ophthalmology,Ophthalmologic,False,False,False,none,False,True,False,False,False,True,True
+Aplastic anemia,Hematology,Hematologic,False,False,False,none,False,False,False,False,False,True,True
+Overflow incontinence,Nephrology/Urology,Genitourinary/Reproductive,False,False,False,none,False,False,False,False,False,True,True
+Rabies,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Hemolytic anemia,Hematology,Hematologic,False,False,False,none,False,False,False,False,False,True,True
+Lateral epicondylitis (tennis elbow),Orthopedics,Musculoskeletal,False,False,False,none,False,False,False,False,False,True,True
+Open wound of the eye,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Syphilis,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Diabetic kidney disease,Nephrology/Urology,Genitourinary,False,False,False,none,False,False,False,False,False,True,True
+Nose disorder,ENT,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Drug withdrawal,Psychiatry,Mental/Behavioral,True,False,False,none,False,False,False,False,False,True,False
+Dental caries,Dentistry/Oral Health,Oral/Dental,False,False,False,none,False,False,False,False,False,True,True
+Hypercholesterolemia,Endocrinology,Endocrine/Metabolic,False,False,False,none,False,False,False,False,False,True,True
+Fracture of the patella,Musculoskeletal,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Kidney failure,Nephrology/Urology,Genitourinary,True,False,False,none,False,False,False,False,False,True,False
+Fracture of the neck,Musculoskeletal,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Muscle spasm,Orthopedics,Musculoskeletal,False,False,False,none,False,False,False,False,False,True,True
+Hemophilia,Hematology,Hematologic,True,False,False,none,False,False,False,False,False,True,False
+Hyperosmotic hyperketotic state,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Peritonsillar abscess,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Gastroparesis,Gastroenterology,Gastrointestinal,False,False,False,none,False,False,False,False,False,True,True
+Itching of unknown cause,Dermatology,Dermatologic,False,False,False,none,False,False,False,False,False,True,True
+Fat embolism,Cardiology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Polycythemia vera,Hematology,Hematologic,True,False,False,none,False,False,False,False,False,True,False
+Thrombocytopenia,Hematology,Hematologic,True,False,False,none,False,False,False,False,False,True,False
+Head and neck cancer,Oncology,Musculoskeletal,False,False,False,none,True,True,False,False,False,True,False
+Pseudohypoparathyroidism,Endocrinology,Endocrine/Metabolic,True,False,False,none,False,False,False,False,False,True,False
+Goiter,Endocrinology,Endocrine/Metabolic,True,False,False,none,False,False,False,False,False,True,False
+Urge incontinence,Nephrology/Urology,Genitourinary/Reproductive,True,False,False,none,False,False,False,False,False,True,False
+Edward syndrome,Genetics,Multisystem/Genetic,True,False,False,none,False,False,False,True,False,True,False
+Open wound of the arm,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Muscular dystrophy,Genetics,Multisystem/Genetic,True,False,False,none,False,False,False,False,False,True,False
+Mittelschmerz,Gynecology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Corneal abrasion,Trauma/Orthopedics,Ophthalmologic,False,False,False,none,False,False,False,False,False,True,True
+Intracranial hemorrhage,Neurology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Hyperkalemia,Endocrinology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Cornea infection,Infectious Disease,Multisystem,False,False,True,unspecified,False,False,True,False,False,True,True
+Abscess of the lung,Infectious Disease,Respiratory,False,False,False,none,False,False,False,False,False,True,True
+Dengue fever,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Chronic sinusitis,Pulmonology,Respiratory,True,False,False,none,False,False,False,False,False,True,False
+Cholesteatoma,ENT,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Volvulus,Gastroenterology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Injury to the finger,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Poisoning due to analgesics,Toxicology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Atrial fibrillation,Cardiology,Cardiovascular,False,False,False,none,False,False,False,False,False,True,True
+Pinworm infection,Infectious Disease,Multisystem,False,False,True,unspecified,False,False,True,False,False,True,True
+Urethral valves,Nephrology/Urology,Genitourinary/Reproductive,False,False,False,none,False,False,False,False,False,True,True
+Open wound of the neck,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Achalasia,Gastroenterology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Conductive hearing loss,ENT,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Abdominal hernia,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Cerebral palsy,Neurology,Neurological,False,False,False,none,False,False,False,False,False,True,True
+Marijuana abuse,Psychiatry,Multisystem,True,False,False,none,False,False,False,False,False,True,False
+Cryptococcosis,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Obesity,Nutrition,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Indigestion,Gastroenterology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Bursitis,Orthopedics,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Esophageal cancer,Oncology,Gastrointestinal,False,False,False,none,True,True,False,False,False,True,False
+Pulmonary congestion,Pulmonology,Respiratory,False,False,False,none,False,False,False,False,False,True,True
+Juvenile rheumatoid arthritis,Musculoskeletal,Multisystem,False,True,False,none,False,False,False,False,False,True,True
+Actinic keratosis,Dermatology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Acute otitis media,ENT,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Astigmatism,Ophthalmology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Tuberous sclerosis,Genetics,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Empyema,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Presbyacusis,ENT,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Neonatal jaundice,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Chronic obstructive pulmonary disease (COPD),Pulmonology,Respiratory,True,False,False,none,False,False,False,False,False,True,False
+Dislocation of the elbow,Orthopedics,Musculoskeletal,False,False,False,none,False,False,False,False,False,True,True
+Spondylosis,Orthopedics,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Herpangina,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Injury to the shoulder,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Poisoning due to antidepressants,Toxicology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Infection of open wound,Infectious Disease,Musculoskeletal,False,False,True,unspecified,False,True,True,False,False,True,True
+Deep vein thrombosis (DVT),Cardiology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Protein deficiency,Nutrition,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Myoclonus,Neurology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Bone spur of the calcaneous,Orthopedics,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Von Willebrand disease,Hematology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Open wound of the back,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Heart block,Cardiology,Cardiovascular,False,False,False,none,False,False,False,False,False,True,True
+Colonic polyp,Oncology,Gastrointestinal,False,False,False,none,False,True,False,False,False,True,True
+Hypospadias,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Magnesium deficiency,Nutrition,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Female infertility of unknown cause,Gynecology,Genitourinary/Reproductive,False,False,False,none,False,False,False,False,False,True,True
+Pericarditis,Cardiology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Attention deficit hyperactivity disorder (ADHD),Psychiatry,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Neuromyelitis optica,Ophthalmology,Ophthalmologic,False,False,False,none,False,False,False,False,False,True,True
+Pulmonic valve disease,Cardiology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Tietze syndrome,Genetics,Multisystem/Genetic,False,False,False,none,False,False,False,True,False,True,False
+Cranial nerve palsy,Neurology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Injury to the arm,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Conversion disorder,Psychiatry,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Complex regional pain syndrome,Genetics,Multisystem/Genetic,False,False,False,none,False,False,False,True,False,True,False
+Otosclerosis,ENT,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Injury to the trunk,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Hypothyroidism,Endocrinology,Endocrine/Metabolic,False,False,False,none,False,False,False,False,False,True,True
+Primary insomnia,Psychiatry,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Lice,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Vitamin B12 deficiency,Nutrition,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Diabetes,Endocrinology,Endocrine/Metabolic,False,False,False,none,False,False,False,False,False,True,True
+Vulvodynia,Gynecology,Genitourinary/Reproductive,False,False,False,none,False,False,False,False,False,True,True
+Endometriosis,Gynecology/Obstetrics,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Vasculitis,Rheumatology,Immune/Systemic,False,False,False,none,False,False,False,False,False,True,True
+Concussion,Neurology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Oral leukoplakia,Dentistry/Oral Health,Oral/Dental,False,False,False,none,False,False,False,False,False,True,True
+Chronic kidney disease,Nephrology/Urology,Genitourinary,True,False,False,none,False,False,False,False,False,True,False
+Bladder disorder,Nephrology/Urology,Genitourinary,False,False,False,none,False,False,False,False,False,True,True
+Chorioretinitis,Ophthalmology,Ophthalmologic,False,False,False,none,False,False,False,False,False,True,True
+Priapism,Urology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Myositis,Rheumatology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Mononucleosis,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Neuralgia,Neurology,Neurological,False,False,False,none,False,False,False,False,False,True,True
+Polycystic kidney disease,Nephrology/Urology,Genitourinary,False,False,False,none,False,True,False,False,False,True,True
+Bipolar disorder,Psychiatry,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Amyloidosis,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Chronic inflammatory demyelinating polyneuropathy (CIDP),Neurology,Neurological,True,False,False,none,False,False,False,False,False,True,False
+Gastroesophageal reflux disease (GERD),Infectious Disease,Gastrointestinal,False,False,False,none,False,False,False,False,False,True,True
+Vitreous hemorrhage,Ophthalmology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Poisoning due to antimicrobial drugs,Toxicology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Open wound of the mouth,Dentistry/Oral Health,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Scleroderma,Rheumatology,Multisystem,False,True,False,none,False,False,False,False,False,True,True
+Myasthenia gravis,Rheumatology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Hypoglycemia,Endocrinology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Idiopathic absence of menstruation,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Dislocation of the ankle,Orthopedics,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Carbon monoxide poisoning,Toxicology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Panic attack,Psychiatry,Multisystem,True,False,False,none,False,False,False,False,False,True,False
+Plantar fasciitis,Orthopedics,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Hyperopia,Ophthalmology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Poisoning due to sedatives,Toxicology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Pemphigus,Rheumatology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Peyronie disease,Urology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Hiatal hernia,Gastroenterology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Extrapyramidal effect of drugs,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Meniere disease,ENT,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Anal fissure,Gastroenterology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Allergy,Allergy/Immunology,Immune/Systemic,False,False,False,none,False,False,False,False,False,True,True
+Chronic otitis media,ENT,Multisystem,True,False,False,none,False,False,False,False,False,True,False
+Fracture of the finger,Musculoskeletal,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Hirschsprung disease,Genetics,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Polymyalgia rheumatica,Rheumatology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Lymphedema,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Bladder cancer,Oncology,Genitourinary,False,False,False,none,True,True,False,False,False,True,False
+Acute bronchospasm,Orthopedics,Respiratory,False,False,False,none,False,False,False,False,False,True,True
+Acute glaucoma,Ophthalmology,Ophthalmologic,False,False,False,none,False,False,False,False,False,True,False
+Open wound of the chest,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Dislocation of the patella,Orthopedics,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Sciatica,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Hypercalcemia,Endocrinology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Stress incontinence,Nephrology/Urology,Genitourinary/Reproductive,False,False,False,none,False,False,False,False,False,True,True
+Varicose veins,Cardiology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Benign kidney cyst,Nephrology/Urology,Genitourinary,False,False,False,none,False,True,False,False,False,True,True
+Hydrocele of the testicle,Urology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Degenerative disc disease,Orthopedics,Multisystem,False,False,False,none,False,False,False,False,True,True,False
+Hirsutism,Endocrinology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Dislocation of the foot,Orthopedics,Musculoskeletal,False,False,False,none,False,False,False,False,False,True,True
+Hydronephrosis,Nephrology/Urology,Genitourinary/Reproductive,False,False,False,none,False,False,False,False,False,True,True
+Diverticulosis,Gastroenterology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Pain after an operation,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Huntington disease,Neurology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+West Nile virus,Infectious Disease,Multisystem,False,False,True,viral,False,False,True,False,False,True,True
+Lymphoma,Oncology,Oncologic/Neoplastic,False,False,False,none,False,False,False,False,False,True,True
+Dermatitis due to sun exposure,Dermatology,Integumentary,False,False,False,none,False,False,False,False,False,True,True
+Anemia due to chronic kidney disease,Hematology,Genitourinary,True,False,False,none,False,False,False,False,False,True,False
+Injury to internal organ,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Scleritis,Ophthalmology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Pterygium,Ophthalmology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Fungal infection of the skin,Infectious Disease,Integumentary,False,False,True,fungal,False,False,True,False,False,True,True
+Insulin overdose,Toxicology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Syndrome of inappropriate secretion of ADH (SIADH),Genetics,Multisystem/Genetic,False,False,False,none,False,False,False,True,False,True,False
+Foreign body in the ear,Trauma/Orthopedics,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Premenstrual tension syndrome,Gynecology/Obstetrics,Genitourinary/Reproductive,False,False,False,none,False,False,False,True,False,True,False
+Orbital cellulitis,Infectious Disease,Dermatologic,False,False,False,none,False,False,False,False,False,True,True
+Injury to the leg,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Hepatic encephalopathy,Neurology,Neurological,False,False,False,none,False,False,False,False,False,True,True
+Bone cancer,Oncology,Oncologic/Neoplastic,False,False,False,none,True,True,False,False,False,True,False
+Leishmaniasis,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Chagas disease,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Syringomyelia,Neurology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Pulmonary fibrosis,Pulmonology,Respiratory,False,False,False,none,False,False,False,False,False,True,True
+Mitral valve disease,Cardiology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Parkinson disease,Neurology,Neurological,False,False,False,none,False,False,False,False,True,True,False
+Gout,Rheumatology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Otitis media,ENT,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Drug abuse (opioids),Psychiatry,Mental/Behavioral,True,False,False,none,False,False,False,False,False,True,False
+Myelodysplastic syndrome,Genetics,Multisystem/Genetic,False,False,False,none,False,False,False,True,False,True,False
+Fracture of the shoulder,Musculoskeletal,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Acute kidney injury,Trauma/Orthopedics,Genitourinary,False,False,False,none,False,True,False,False,False,True,True
+Threatened pregnancy,Gynecology/Obstetrics,Genitourinary/Reproductive,False,False,False,none,False,False,False,False,False,True,True
+Intracranial abscess,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Gum disease,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Open wound from surgical incision,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Gastrointestinal hemorrhage,Gastroenterology,Gastrointestinal,False,False,False,none,False,False,False,False,False,True,True
+Seborrheic dermatitis,Dermatology,Integumentary,False,False,False,none,False,False,False,False,False,True,True
+Drug abuse (methamphetamine),Psychiatry,Mental/Behavioral,True,False,False,none,False,False,False,False,False,True,False
+Torticollis,Orthopedics,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Poisoning due to antihypertensives,Toxicology,Cardiovascular,False,False,False,none,False,False,False,False,False,True,True
+Tension headache,Neurology,Neurological,False,False,False,none,False,False,False,False,False,True,True
+Alcohol intoxication,Toxicology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Scurvy,Nutrition,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Narcolepsy,Neurology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Primary kidney disease,Nephrology/Urology,Genitourinary,False,False,False,none,False,False,False,False,False,True,True
+Uterine cancer,Oncology,Genitourinary/Reproductive,False,False,False,none,True,True,False,False,False,True,False
+Dry eye of unknown cause,Ophthalmology,Ophthalmologic,False,False,False,none,False,False,False,False,False,True,True
+Fibrocystic breast disease,Gynecology/Obstetrics,Genitourinary/Reproductive,False,False,False,none,False,True,False,False,False,True,True
+Fungal infection of the hair,Infectious Disease,Multisystem,False,False,True,fungal,False,False,True,False,False,True,True
+Tooth abscess,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Leptospirosis,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Envenomation from spider or animal bite,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+VACTERL syndrome,Genetics,Multisystem/Genetic,False,False,False,none,False,False,False,True,False,True,False
+Vertebrobasilar insufficiency,Neurology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Rectal disorder,Gastroenterology,Gastrointestinal,False,False,False,none,False,False,False,False,False,True,True
+Atonic bladder,Nephrology/Urology,Genitourinary,False,False,False,none,False,False,False,False,False,True,True
+Benign paroxysmal positional vertical (BPPV),Neurology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Blepharospasm,Orthopedics,Musculoskeletal,False,False,False,none,False,False,False,False,False,True,True
+Sarcoidosis,Rheumatology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Metastatic cancer,Oncology,Oncologic/Neoplastic,False,False,False,none,True,True,False,False,False,True,False
+Trigger finger (finger disorder),Orthopedics,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Stye,Ophthalmology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Hemochromatosis,Genetics,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Osteochondroma,Orthopedics,Musculoskeletal,False,False,False,none,False,False,False,False,False,True,True
+Cushing syndrome,Endocrinology,Multisystem/Genetic,False,False,False,none,False,False,False,True,False,True,False
+Typhoid fever,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Vitreous degeneration,Ophthalmology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Atrophic skin condition,Dermatology,Integumentary,False,False,False,none,False,False,False,False,False,True,True
+Aspergillosis,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Uterine atony,Gynecology/Obstetrics,Genitourinary/Reproductive,False,False,False,none,False,False,False,False,False,True,True
+Trichinosis,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Whooping cough,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Pick disease,Genetics,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Open wound of the lip,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Subacute thyroiditis,Endocrinology,Endocrine/Metabolic,False,False,False,none,False,False,False,False,False,True,True
+Oral mucosal lesion,Dentistry/Oral Health,Oral/Dental,False,False,False,none,False,False,False,False,False,True,True
+Open wound due to trauma,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Intracerebral hemorrhage,Neurology,Neurological,False,False,False,none,False,False,False,False,False,True,True
+Alzheimer disease,Genetics,Multisystem,False,False,False,none,False,False,False,False,True,True,False
+Vaginismus,Gynecology/Obstetrics,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Systemic lupus erythematosis (SLE),Rheumatology,Immune/Systemic,False,True,False,none,False,False,False,False,False,True,True
+Premature ovarian failure,Gynecology/Obstetrics,Genitourinary/Reproductive,False,False,False,none,False,False,False,False,False,True,True
+Thoracic outlet syndrome,Genetics,Multisystem/Genetic,False,False,False,none,False,False,False,True,False,True,False
+Ganglion cyst,Dermatology,Oncologic/Neoplastic,False,False,False,none,False,True,False,False,False,True,True
+Dislocation of the knee,Orthopedics,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Crohn disease,Gastroenterology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Postoperative infection,Infectious Disease,Multisystem,False,False,True,unspecified,False,False,True,False,False,True,True
+Folate deficiency,Nutrition,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Fluid overload,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Atrial flutter,Infectious Disease,Cardiovascular,False,False,False,none,False,False,False,False,False,True,True
+Skin disorder,Dermatology,Integumentary,False,False,False,none,False,False,False,False,False,True,True
+Floaters,Ophthalmology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Tooth disorder,Dentistry/Oral Health,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Heart attack,Cardiology,Cardiovascular,False,False,False,none,False,False,False,False,False,True,True
+Open wound of the abdomen,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Fracture of the leg,Musculoskeletal,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Oral thrush (yeast infection),Infectious Disease,Oral/Dental,False,False,True,fungal,False,False,True,False,False,True,True
+Pityriasis rosea,Dermatology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Allergy to animals,Allergy/Immunology,Immune/Systemic,False,False,False,none,False,False,False,False,False,True,True
+Orthostatic hypotension,Cardiology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Obstructive sleep apnea (OSA),General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Hypokalemia,Endocrinology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Psoriasis,Dermatology,Dermatologic,False,True,False,none,False,False,False,False,False,True,True
+Dislocation of the shoulder,Orthopedics,Musculoskeletal,False,False,False,none,False,False,False,False,False,True,True
+Intussusception,Gastroenterology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Cervicitis,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Abscess of the pharynx,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Primary thrombocythemia,Hematology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Arthritis of the hip,Musculoskeletal,Musculoskeletal,False,False,False,none,False,False,False,False,False,True,True
+Decubitus ulcer,Dermatology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Hypernatremia,Endocrinology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Sensorineural hearing loss,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Chronic ulcer,Dermatology,Multisystem,True,False,False,none,False,False,False,False,False,True,False
+Osteoporosis,Musculoskeletal,Musculoskeletal,False,False,False,none,False,False,False,False,False,True,True
+Ileus,Gastroenterology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Sickle cell crisis,Hematology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Urethritis,Nephrology/Urology,Genitourinary/Reproductive,False,False,False,none,False,False,False,False,False,True,True
+Prostatitis,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Otitis externa (swimmer's ear),ENT,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Poisoning due to anticonvulsants,Toxicology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Testicular torsion,Urology,Genitourinary/Reproductive,False,False,False,none,False,False,False,False,False,True,True
+Tricuspid valve disease,Cardiology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Urethral stricture,Nephrology/Urology,Genitourinary/Reproductive,False,False,False,none,False,False,False,False,False,True,True
+Vitamin D deficiency,Nutrition,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Hydatidiform mole,Oncology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Pain disorder affecting the neck,Orthopedics,Musculoskeletal,False,False,False,none,False,False,False,False,False,True,True
+Tuberculosis,Infectious Disease,Multisystem,False,False,True,bacterial,False,False,True,False,False,True,True
+Pelvic fistula,Urology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Acute bronchiolitis,Pulmonology,Respiratory,False,False,False,none,False,False,False,False,False,True,True
+Presbyopia,Ophthalmology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Dementia,Neurology,Neurological,False,False,False,none,False,False,False,False,False,True,True
+Insect bite,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Paroxysmal ventricular tachycardia,Cardiology,Cardiovascular,False,False,False,none,False,False,False,False,False,True,True
+Congenital heart defect,Cardiology,Cardiovascular,False,False,False,none,False,False,False,False,False,True,True
+Connective tissue disorder,Rheumatology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Foreign body in the eye,Trauma/Orthopedics,Ophthalmologic,False,False,False,none,False,False,False,False,False,True,True
+Poisoning due to gas,Toxicology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Pyogenic skin infection,Infectious Disease,Integumentary,False,False,True,unspecified,False,False,True,False,False,True,True
+Endometrial hyperplasia,Gynecology/Obstetrics,Genitourinary/Reproductive,False,False,False,none,False,False,False,False,False,True,True
+Acanthosis nigricans,Dermatology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Central atherosclerosis,Cardiology,Cardiovascular,False,False,False,none,False,False,False,False,False,True,True
+Viral exanthem,Infectious Disease,Multisystem,False,False,False,viral,False,False,False,False,False,True,True
+Blastomycosis,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Noninfectious gastroenteritis,Infectious Disease,Gastrointestinal,False,False,False,none,False,False,False,False,False,True,True
+Benign prostatic hyperplasia (BPH),Urology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Menopause,Endocrinology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Primary immunodeficiency,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Ovarian cancer,Oncology,Genitourinary/Reproductive,False,False,False,none,True,True,False,False,False,True,False
+Cataract,Ophthalmology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Dislocation of the hip,Orthopedics,Musculoskeletal,False,False,False,none,False,False,False,False,False,True,True
+Spinal stenosis,Orthopedics,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Intestinal obstruction,Gastroenterology,Gastrointestinal,False,False,False,none,False,False,False,False,False,True,True
+Heart contusion,Trauma/Orthopedics,Cardiovascular,False,False,False,none,False,False,False,False,False,True,True
+Congenital malformation syndrome,Genetics,Multisystem/Genetic,False,False,False,none,False,False,False,True,False,True,False
+Sporotrichosis,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Lymphangitis,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Wernicke Korsakoff syndrome,Genetics,Multisystem/Genetic,False,False,False,none,False,False,False,True,False,True,False
+Intestinal disease,Gastroenterology,Gastrointestinal,False,False,False,none,False,False,False,False,False,True,True
+Acute bronchitis,Pulmonology,Respiratory,False,False,False,none,False,False,False,False,False,True,True
+Persistent vomiting of unknown cause,Gastroenterology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Open wound of the foot,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Myocarditis,Cardiology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Preeclampsia,Endocrinology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Ischemic heart disease,Cardiology,Cardiovascular,False,False,False,none,False,False,False,False,False,True,True
+Neurofibromatosis,Genetics,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Chickenpox,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Pancreatic cancer,Oncology,Gastrointestinal,False,False,False,none,True,True,False,False,False,True,False
+Neuropathy due to drugs,Neurology,Neurological,False,False,False,none,False,False,False,False,False,True,True
+Croup,ENT,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Idiopathic excessive menstruation,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Amblyopia,Ophthalmology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Meckel diverticulum,Gastroenterology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Dislocation of the wrist,Orthopedics,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Ear drum damage,ENT,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Erectile dysfunction,Urology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Temporary or benign blood in urine,Urology,Hematologic,False,False,False,none,False,False,False,False,False,True,True
+Kidney disease due to longstanding hypertension,Cardiology,Genitourinary,False,False,False,none,False,False,False,False,False,True,True
+Chondromalacia of the patella,Orthopedics,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Onychomycosis,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Urethral disorder,Nephrology/Urology,Genitourinary/Reproductive,False,False,False,none,False,False,False,False,False,True,True
+Lyme disease,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Iron deficiency anemia,Hematology,Hematologic,False,False,False,none,False,False,False,False,False,True,True
+Acute respiratory distress syndrome (ARDS),Pulmonology,Respiratory,False,False,False,none,False,False,False,True,False,True,False
+Toxic multinodular goiter,Endocrinology,Endocrine/Metabolic,True,False,False,none,False,False,False,False,False,True,False
+Open wound of the finger,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Autonomic nervous system disorder,Neurology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Psychosexual disorder,Psychiatry,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Anemia,Hematology,Hematologic,False,False,False,none,False,False,False,False,False,True,True
+Tendinitis,Orthopedics,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Common cold,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Amyotrophic lateral sclerosis (ALS),Neurology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Central retinal artery or vein occlusion,Ophthalmology,Ophthalmologic,False,False,False,none,False,False,False,False,False,True,True
+Paroxysmal supraventricular tachycardia,Cardiology,Cardiovascular,False,False,False,none,False,False,False,False,False,True,True
+Venous insufficiency,Cardiology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Trichomonas infection,Infectious Disease,Multisystem,False,False,True,unspecified,False,False,True,False,False,True,True
+Acne,Dermatology,Integumentary,False,False,False,none,False,False,False,False,False,True,True
+Depression,Psychiatry,Mental/Behavioral,False,False,False,none,False,False,False,False,False,True,True
+Drug abuse,Psychiatry,Mental/Behavioral,True,False,False,none,False,False,False,False,False,True,False
+Urinary tract obstruction,Nephrology/Urology,Genitourinary,False,False,False,none,False,False,False,False,False,True,True
+Diabetes insipidus,Endocrinology,Endocrine/Metabolic,False,False,False,none,False,False,False,False,False,True,True
+Iridocyclitis,Ophthalmology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Varicocele of the testicles,Urology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Irritable bowel syndrome,Gastroenterology,Gastrointestinal,False,False,False,none,False,False,False,True,False,True,False
+Fracture of the foot,Musculoskeletal,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Ovarian cyst,Gynecology/Obstetrics,Genitourinary/Reproductive,False,False,False,none,False,True,False,False,False,True,True
+Chlamydia,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Parasitic disease,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Fracture of the jaw,Musculoskeletal,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Cytomegalovirus infection,Infectious Disease,Multisystem,False,False,True,viral,False,False,True,False,False,True,True
+Lipoma,Oncology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Female genitalia infection,Infectious Disease,Multisystem,False,False,True,unspecified,False,False,True,False,False,True,True
+Pulmonary hypertension,Cardiology,Cardiovascular,False,False,False,none,False,False,False,False,False,True,True
+Thyroid nodule,Endocrinology,Endocrine/Metabolic,False,False,False,none,False,False,False,False,False,True,True
+Broken tooth,Dentistry/Oral Health,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Dumping syndrome,Genetics,Multisystem/Genetic,False,False,False,none,False,False,False,True,False,True,False
+Lymphadenitis,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Injury to the face,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Aortic valve disease,Cardiology,Cardiovascular,False,False,False,none,False,False,False,False,False,True,True
+Rheumatoid arthritis,Musculoskeletal,Multisystem,False,True,False,none,False,False,False,False,False,True,True
+Spermatocele,Urology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Impetigo,Dermatology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Anal fistula,Gastroenterology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Hypothermia,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Oppositional disorder,Psychiatry,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Migraine,Neurology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Diabetic peripheral neuropathy,Neurology,Endocrine/Metabolic,False,False,False,none,False,False,False,False,False,True,True
+Testicular disorder,Urology,Genitourinary/Reproductive,False,False,False,none,False,False,False,False,False,True,True
+Gestational diabetes,Endocrinology,Endocrine/Metabolic,False,False,False,none,False,False,False,False,False,True,True
+Hidradenitis suppurativa,Dermatology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Valley fever,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Conjunctivitis due to bacteria,Ophthalmology,Ophthalmologic,False,False,False,none,False,False,False,False,False,True,True
+Lewy body dementia,Neurology,Neurological,False,False,False,none,False,False,False,False,False,True,True
+Marfan syndrome,Genetics,Multisystem/Genetic,False,False,False,none,False,False,False,True,False,True,False
+Multiple myeloma,Hematology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Stomach cancer,Oncology,Gastrointestinal,False,False,False,none,True,True,False,False,False,True,False
+Developmental disability,Neurology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Acute stress reaction,Neurology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Delirium,Psychiatry,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Callus,Dermatology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Guillain Barre syndrome,Genetics,Multisystem/Genetic,False,False,False,none,False,False,False,True,False,True,False
+Lumbago,Orthopedics,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Deviated nasal septum,ENT,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Hemangioma,Oncology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Patau syndrome,Genetics,Multisystem/Genetic,False,False,False,none,False,False,False,True,False,True,False
+Peripheral arterial disease,Cardiology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Chronic back pain,Orthopedics,Musculoskeletal,True,False,False,none,False,False,False,False,False,True,False
+Heart failure,Cardiology,Cardiovascular,False,False,False,none,False,False,False,False,False,True,True
+Conjunctivitis,Ophthalmology,Ophthalmologic,False,False,False,none,False,False,False,False,False,True,True
+Herniated disk,Orthopedics,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Rhabdomyolysis,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Breast infection (mastitis),Infectious Disease,Genitourinary/Reproductive,False,False,True,unspecified,False,False,True,False,False,True,True
+Abdominal aortic aneurysm,Cardiology,Cardiovascular,False,False,False,none,False,False,False,False,False,True,True
+Pulmonary embolism,Pulmonology,Respiratory,False,False,False,none,False,False,False,False,False,True,True
+Conduct disorder,Psychiatry,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Air embolism,Cardiology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Mastectomy,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Epididymitis,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Premature rupture of amniotic membrane,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Molluscum contagiosum,Dermatology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Necrotizing fasciitis,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Benign vaginal discharge (leukorrhea),Gynecology/Obstetrics,Genitourinary/Reproductive,False,False,False,none,False,False,False,False,False,True,True
+Bladder obstruction,Nephrology/Urology,Genitourinary,False,False,False,none,False,False,False,False,False,True,True
+Melanoma,Oncology,Oncologic/Neoplastic,False,False,False,none,False,False,False,False,False,True,True
+Cervical disorder,Gynecology,Genitourinary/Reproductive,False,False,False,none,False,False,False,False,False,True,True
+Laryngitis,ENT,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Dyshidrosis,Dermatology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Poisoning due to opioids,Toxicology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Diaper rash,Dermatology,Dermatologic,False,False,False,none,False,False,False,False,False,True,True
+Lichen planus,Dermatology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Gastroduodenal ulcer,Gastroenterology,Gastrointestinal,False,False,False,none,False,False,False,False,False,True,True
+Inguinal hernia,Gastroenterology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Eczema,Dermatology,Dermatologic,False,False,False,none,False,False,False,False,False,True,True
+Asperger syndrome,Genetics,Multisystem/Genetic,False,False,False,none,False,False,False,True,False,True,False
+Mucositis,Gastroenterology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Paronychia,Dermatology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Open wound of the jaw,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+White blood cell disease,Hematology,Hematologic,False,False,False,none,False,False,False,False,False,True,True
+Kaposi sarcoma,Oncology,Oncologic/Neoplastic,False,False,False,none,False,False,False,False,False,True,True
+Spondylolisthesis,Orthopedics,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Pseudotumor cerebri,Oncology,Oncologic/Neoplastic,False,False,False,none,True,False,False,False,False,True,False
+Conjunctivitis due to virus,Infectious Disease,Ophthalmologic,False,False,True,viral,False,False,True,False,False,True,True
+Open wound of the nose,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Head injury,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Ascending cholangitis,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Idiopathic irregular menstrual cycle,Gynecology/Obstetrics,Genitourinary/Reproductive,False,False,False,none,False,False,False,False,False,True,True
+Interstitial lung disease,Neurology,Respiratory,False,False,False,none,False,False,False,False,False,True,True
+Mononeuritis,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Malaria,Infectious Disease,Multisystem,False,False,True,unspecified,False,False,True,False,False,True,True
+Somatization disorder,Psychiatry,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Hypovolemia,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Schizophrenia,Psychiatry,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Knee ligament or meniscus tear,Orthopedics,Musculoskeletal,False,False,False,none,False,False,False,False,False,True,True
+Endocarditis,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Sepsis,Infectious Disease,Immune/Systemic,False,False,False,none,False,False,False,False,False,True,True
+Heat stroke,Neurology,Neurological,False,False,False,none,False,False,False,False,False,True,True
+Cholecystitis,Dermatology,Oncologic/Neoplastic,False,False,False,none,False,True,False,False,False,True,True
+Cardiac arrest,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Cardiomyopathy,Cardiology,Cardiovascular,False,False,False,none,False,False,False,False,False,True,True
+Social phobia,General Medicine,Multisystem,True,False,False,none,False,False,False,False,False,True,False
+Meningitis,Neurology,Neurological,False,False,False,none,False,False,False,False,False,True,True
+Spherocytosis,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Hormone disorder,Endocrinology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Raynaud disease,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Reactive arthritis,Musculoskeletal,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Scabies,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Ear wax impaction,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Hypertension of pregnancy,Gynecology/Obstetrics,Cardiovascular,False,False,False,none,False,False,False,False,False,True,True
+Peripheral arterial embolism,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Rosacea,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Fracture of the skull,Musculoskeletal,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Uveitis,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Fracture of the facial bones,Musculoskeletal,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Tracheitis,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Jaw disorder,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Perirectal infection,Infectious Disease,Gastrointestinal,False,False,True,unspecified,False,False,True,False,False,True,True
+Breast cyst,Gynecology/Obstetrics,Genitourinary/Reproductive,False,False,False,none,False,True,False,False,False,True,True
+Post-traumatic stress disorder (PTSD),Psychiatry,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Kidney cancer,Oncology,Genitourinary,False,False,False,none,True,True,False,False,False,True,False
+Vulvar cancer,Oncology,Genitourinary/Reproductive,False,False,False,none,True,True,False,False,False,True,False
+Blepharitis,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Celiac disease,General Medicine,Multisystem,False,True,False,none,False,False,False,False,False,True,True
+Cystitis,Dermatology,Oncologic/Neoplastic,False,False,False,none,False,True,False,False,False,True,True
+Sickle cell anemia,Hematology,Hematologic,False,False,False,none,False,False,False,False,False,True,True
+Subconjunctival hemorrhage,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Hemorrhoids,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Contact dermatitis,Dermatology,Integumentary,False,False,False,none,False,False,False,False,False,True,True
+Sinus bradycardia,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+High blood pressure,General Medicine,Hematologic,False,False,False,none,False,False,False,False,False,True,True
+Pelvic inflammatory disease,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Liver disease,Gastroenterology,Gastrointestinal,False,False,False,none,False,False,False,False,False,True,True
+Chronic constipation,General Medicine,Multisystem,True,False,False,none,False,False,False,False,False,True,False
+Thyroid cancer,Oncology,Endocrine/Metabolic,False,False,False,none,True,True,False,False,False,True,False
+Flu,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Friedrich ataxia,Neurology,Neurological,False,False,False,none,False,False,False,False,False,True,True
+Tic (movement) disorder,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Skin polyp,Oncology,Integumentary,False,False,False,none,False,True,False,False,False,True,True
+Brachial neuritis,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Cervical cancer,Oncology,Genitourinary/Reproductive,False,False,False,none,True,True,False,False,False,True,False
+Adrenal adenoma,Oncology,Endocrine/Metabolic,False,False,False,none,True,True,False,False,False,True,False
+Esophagitis,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Gas gangrene,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Yeast infection,Infectious Disease,Multisystem,False,False,True,fungal,False,False,True,False,False,True,True
+Spina bifida,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Drug poisoning due to medication,Toxicology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Alcoholic liver disease,Gastroenterology,Gastrointestinal,False,False,False,none,False,False,False,False,False,True,True
+Malignant hypertension,Cardiology,Cardiovascular,False,False,False,none,False,False,False,False,False,True,True
+Diverticulitis,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Moyamoya disease,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Heat exhaustion,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Psychotic disorder,Psychiatry,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Frostbite,Infectious Disease,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Atrophy of the corpus cavernosum,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Smoking or tobacco addiction,General Medicine,Multisystem,True,False,False,none,False,False,False,False,False,True,False
+Sprain or strain,Orthopedics,Musculoskeletal,False,False,False,none,False,False,False,False,False,True,True
+Essential tremor,Neurology,Neurological,False,False,False,none,False,False,False,False,False,True,True
+Open wound of the ear,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Foreign body in the nose,Trauma/Orthopedics,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Idiopathic painful menstruation,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Down syndrome,Genetics,Multisystem/Genetic,False,False,False,none,False,False,False,True,False,True,False
+Idiopathic infrequent menstruation,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Pneumothorax,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+De Quervain disease,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Fracture of the vertebra,Musculoskeletal,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Human immunodeficiency virus infection (HIV),Infectious Disease,Multisystem,False,False,True,viral,False,False,True,False,False,True,True
+Mumps,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Subarachnoid hemorrhage,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Acute fatty liver of pregnancy (AFLP),Gynecology/Obstetrics,Gastrointestinal,False,False,False,none,False,False,False,False,False,True,True
+Ectropion,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Scar,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Lactose intolerance,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Eustachian tube dysfunction (ear disorder),General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Appendicitis,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Graves disease,General Medicine,Multisystem,False,True,False,none,False,False,False,False,False,True,True
+Dissociative disorder,General Medicine,Multisystem,True,False,False,none,False,False,False,False,False,True,False
+Open wound of the face,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Dislocation of the vertebra,Orthopedics,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Phimosis,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Hyperemesis gravidarum,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Pregnancy,Gynecology/Obstetrics,Genitourinary/Reproductive,False,False,False,none,False,False,False,False,False,True,True
+Thalassemia,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Placenta previa,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Epidural hemorrhage,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Septic arthritis,Musculoskeletal,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Athlete's foot,Orthopedics,Musculoskeletal,False,False,False,none,False,False,False,False,False,True,True
+Pleural effusion,Pulmonology,Respiratory,False,False,False,none,False,False,False,False,False,True,True
+Aphakia,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Vulvar disorder,Gynecology,Genitourinary/Reproductive,False,False,False,none,False,False,False,False,False,True,True
+Vitamin B deficiency,Nutrition,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Sialoadenitis,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Gynecomastia,Neurology,Neurological,False,False,False,none,False,False,False,False,False,True,True
+Urinary tract infection,Infectious Disease,Genitourinary,False,False,True,unspecified,False,False,True,False,False,True,True
+Histoplasmosis,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Erythema multiforme,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Scoliosis,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Bunion,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Arrhythmia,Cardiology,Cardiovascular,False,False,False,none,False,False,False,False,False,True,True
+Paget disease,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Trigeminal neuralgia,Neurology,Neurological,False,False,False,none,False,False,False,False,False,True,True
+Ankylosing spondylitis,Rheumatology,Multisystem,True,True,False,none,False,False,False,False,False,True,False
+Peripheral nerve disorder,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Sebaceous cyst,Dermatology,Oncologic/Neoplastic,False,False,False,none,False,True,False,False,False,True,True
+Poisoning due to antipsychotics,Toxicology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Behcet disease,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Neurosis,General Medicine,Multisystem,True,False,False,none,False,False,False,False,False,True,False
+Prostate cancer,Oncology,Genitourinary/Reproductive,False,False,False,none,True,True,False,False,False,True,False
+Cerebral edema,Neurology,Neurological,False,False,False,none,False,False,False,False,False,True,True
+Dislocation of the finger,Orthopedics,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Birth trauma,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Chronic pancreatitis,Gastroenterology,Gastrointestinal,True,False,False,none,False,False,False,False,False,True,False
+Hematoma,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Carcinoid syndrome,Genetics,Multisystem/Genetic,False,False,False,none,False,False,False,True,False,True,False
+Open wound of the head,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Seborrheic keratosis,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Burn,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Spontaneous abortion,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Genital herpes,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Adjustment reaction,General Medicine,Multisystem,True,False,False,none,False,False,False,False,False,True,False
+Gallstone,Gastroenterology,Gastrointestinal,False,False,False,none,False,False,False,False,False,True,True
+Multiple sclerosis,Neurology,Multisystem,False,True,False,none,False,False,False,False,False,True,True
+Zenker diverticulum,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Fracture of the pelvis,Musculoskeletal,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Pneumoconiosis,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Hyperlipidemia,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Ulcerative colitis,Gastroenterology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Male genitalia infection,Infectious Disease,Multisystem,False,False,True,unspecified,False,False,True,False,False,True,True
+HPV,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Angina,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Injury to the spinal cord,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Nasal polyp,Oncology,Oncologic/Neoplastic,False,False,False,none,False,True,False,False,False,True,True
+Lichen simplex,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Trichiasis,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Acariasis,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Colorectal cancer,Oncology,Gastrointestinal,False,False,False,none,True,True,False,False,False,True,False
+Skin pigmentation disorder,Dermatology,Integumentary,False,False,False,none,False,False,False,False,False,True,True
+Factitious disorder,General Medicine,Multisystem,True,False,False,none,False,False,False,False,False,True,False
+Lymphogranuloma venereum,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Galactorrhea of unknown cause,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+G6PD enzyme deficiency,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Nerve impingement near the shoulder,Orthopedics,Musculoskeletal,False,False,False,none,False,False,False,False,False,True,True
+Toxoplasmosis,Toxicology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Fibroadenoma,Oncology,Oncologic/Neoplastic,False,False,False,none,True,True,False,False,False,True,False
+Open wound of the hand,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Missed abortion,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Diabetic ketoacidosis,Endocrinology,Endocrine/Metabolic,False,False,False,none,False,False,False,False,False,True,True
+Granuloma inguinale,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Hemorrhagic fever,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Obsessive compulsive disorder (OCD),Psychiatry,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Injury of the ankle,Trauma/Orthopedics,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Hyponatremia,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Stricture of the esophagus,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Fracture of the ankle,Musculoskeletal,Musculoskeletal,False,False,False,none,False,True,False,False,False,True,True
+Soft tissue sarcoma,Oncology,Oncologic/Neoplastic,False,False,False,none,False,False,False,False,False,True,True
+Bone disorder,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Epilepsy,Neurology,Neurological,False,False,False,none,False,False,False,False,False,True,True
+Personality disorder,Psychiatry,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Shingles (herpes zoster),General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Tourette syndrome,Genetics,Multisystem/Genetic,False,False,False,none,False,False,False,True,False,True,False
+Avascular necrosis,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Strep throat,Pulmonology,Respiratory,False,False,False,none,False,False,False,False,False,True,True
+Spinocerebellar ataxia,Neurology,Neurological,False,False,False,none,False,False,False,False,False,True,True
+Osteomyelitis,Orthopedics,Musculoskeletal,False,False,False,none,False,False,False,False,False,True,True
+Sjogren syndrome,Rheumatology,Multisystem/Genetic,False,True,False,none,False,False,False,True,False,True,False
+Adhesive capsulitis of the shoulder,Orthopedics,Musculoskeletal,False,False,False,none,False,False,False,False,False,True,True
+Viral hepatitis,Infectious Disease,Gastrointestinal,False,False,False,viral,False,False,False,False,False,True,True
+Tonsillar hypertrophy,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Gastritis,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Skin cancer,Oncology,Integumentary,False,False,False,none,True,True,False,False,False,True,False
+Rheumatic fever,Rheumatology,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Aphthous ulcer,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Tonsillitis,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True
+Intestinal cancer,Oncology,Gastrointestinal,False,False,False,none,True,True,False,False,False,True,False
+Rocky Mountain spotted fever,General Medicine,Multisystem,False,False,False,none,False,False,False,False,False,True,True

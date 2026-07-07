@@ -1,0 +1,62 @@
+bed and department inside of wings
+Grayson Wing 
+    Emergency Room (1)
+        120 Beds
+    ICU (2)
+        30 Beds
+
+Allen Research 
+    Gastro (1)
+        40 Beds
+    Endocrinology (2A)
+        20 Beds
+    Urology (2B)
+        20 Beds
+    Oncology (3A)
+        30 Beds
+    Hematology (3B)
+        10 Beds
+    Genetics (4A)
+        10 Beds
+    Imunology (4B)
+        15 Beds
+
+Grayson Clinical Wing 
+    Cardiological (1A)
+        35 Beds
+    Dermatology (1B)
+        15 Beds
+    Neurology (2A)
+        30 Beds
+    Pulmonology (2B)
+        20 Beds
+    Rheumatology (3A)
+        40 Beds
+    Ophtalmology (3B)
+        10 Beds
+
+Viltrum Operations Center
+    Operations 1
+
+    Billing 2
+
+Coalition Sciences wing
+    Pediatrics 1
+        35 Beds
+    OBYGN 2
+        35 Beds
+    Reproductive medicine 3
+        35 Beds
+
+Global Services Wing
+    Imaging 1
+        6 Beds
+    Labs (2A)
+
+    Pharmacy (2B)
+
+    Neuroskeletal and Orthopedics (3)
+        36 Beds
+    
+
+    

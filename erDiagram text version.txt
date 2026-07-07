@@ -1,0 +1,265 @@
+erDiagram
+
+DISEASES {
+    int disease_id PK
+    string disease_name
+    string disease_code
+    string category
+    string body_system
+    boolean is_chronic
+    boolean is_autoimmune
+    boolean is_infectious
+    string infection_type
+    boolean is_tumor
+    boolean is_cancer
+    boolean is_operable
+    boolean is_contagious
+    boolean is_genetic
+    boolean is_degenerative
+    string onset_pattern
+    string progression_pattern
+    string severity_baseline
+    boolean is_treatable
+    boolean is_curable
+}
+
+DEPARTMENTS{
+    int department_id PK
+    string department_name 
+    int doctor_id FK
+    string phone_number
+}
+
+HOSPITAL_WINGS{
+    int wing_id PK
+    string wing_name
+    int floor_number
+    int department_id FK
+    string nurse_station_phone
+    string wing_status
+}
+
+DOCTORS{
+    int doctor_id PK
+    boolean head_doctor
+    string doctor_specialty
+    string gender
+    date date_of_birth
+    string email
+    string phone_number
+    string license_number
+    string subspecialty
+    int department_id FK
+    int wing_id FK
+    string shift_type
+    boolean employment_status
+    boolean vacation
+}
+
+PATIENTS{
+    int patient_id PK
+    string first_name
+    string last_name
+    date date_of_birth
+    string gender
+    string marital_status
+    string nationality
+    string ocupation
+    string blood_type
+    string phone_number
+    string email
+    string city
+    string zip
+    date registration_date
+    boolean trauma_case
+    boolean pregnancy
+    boolean born_in_Hospital
+}
+
+NURSES {
+    int nurse_id PK
+    string first_name
+    string last_name
+    string gender
+    date date_of_birth
+    string phone_number
+    string email
+    string license_number
+    string nurse_type
+    string specialty
+    int wing_id FK
+    string shift_type
+    boolean employment_status
+    boolean vacation
+}
+
+BEDS{
+    int bed_id PK
+    int wing_id FK
+    boolean occupied
+    string room_number
+    string bed_type
+}
+
+ADMISSIONS {
+    int admission_id PK
+    int patient_id FK
+    int admitting_doctor_id FK
+    int wing_id FK
+    int bed_id FK
+    date admission_date
+    date discharge_date
+    string reason_for_admission
+}
+
+
+BILLING_ITEMS {
+    int billing_item_id PK
+    int bill_id FK
+    string item_type
+    string item_description
+    int quantity
+    decimal unit_cost
+}
+
+MEDICATIONS {
+    int medication_id PK
+    string medication_name
+    string category
+    string dosage_form
+    string strength
+    string manufacturer
+    decimal unit_cost
+    int stock_quantity
+    int reorder_level
+}
+
+PATIENT_MEDICATIONS {
+    int patient_medication_id PK
+    int patient_id FK
+    int admission_id FK
+    int medication_id FK
+    int doctor_id FK
+    date start_date
+    date end_date
+    string dosage
+    string frequency
+    string route
+    string status
+}
+SURGERIES {
+    int surgery_id PK
+    int patient_id FK
+    int admission_id FK
+    int surgery_room_id FK
+    int primary_surgeon_id FK
+    int medication_id FK
+    int billing_item_id Fk
+    string surgery_type
+    datetime scheduled_date
+    datetime actual_start_time
+    datetime actual_end_time
+    string outcome_status
+    string anesthesia_type
+    string notes
+}
+
+SURGERY_ROOMS {
+int surgery_room_id PK
+string room_name
+string room_type
+int wing_id FK
+string availability_status
+}
+
+DIAGNOSTICS{
+    int test_id PK
+    string test_name
+    string test_category
+    int department_id FK
+    decimal standard_cost 
+}
+
+TEST_RECORDS{
+    int patient_test_id PK
+    int patient_id FK
+    int admission_id FK
+    int test_id FK
+    int doctor_id FK
+    date test_date
+    string result_summary
+    string result_status
+    boolean abnormal_flag
+    decimal cost
+}
+PATIENT_DIAGNOSES {
+    int patient_diagnosis_id PK
+    int patient_id FK
+    int admission_id FK
+    int disease_id FK
+    int doctor_id FK
+    date diagnosis_date
+    string stage
+    string severity
+    boolean primary_flag
+    string notes
+}
+
+OUTCOMES {
+    int outcome_id PK
+    int patient_id FK
+    int admission_id FK
+    string discharge_status
+    boolean readmission_flag
+    boolean complication_flag
+    boolean mortality_flag
+    boolean followup_required
+    date followup_date
+}
+
+BILLING {
+    int bill_id PK
+    int admission_id FK
+    int patient_id FK
+    decimal total_amount
+    date billing_date
+}
+
+DEPARTMENTS ||--o{ DOCTORS : has
+DEPARTMENTS ||--o{ HOSPITAL_WINGS : contains
+DEPARTMENTS ||--o{ DIAGNOSTICS : manages
+
+HOSPITAL_WINGS ||--o{ NURSES : assigns
+HOSPITAL_WINGS ||--o{ BEDS : contains
+HOSPITAL_WINGS ||--o{ ADMISSIONS : receives
+HOSPITAL_WINGS ||--o{ SURGERY_ROOMS : has
+HOSPITAL_WINGS ||--o{ DOCTORS : hosts
+
+PATIENTS ||--o{ ADMISSIONS : has
+PATIENTS ||--o{ BILLING : receives
+PATIENTS ||--o{ PATIENT_DIAGNOSES : gets
+PATIENTS ||--o{ PATIENT_MEDICATIONS : takes
+PATIENTS ||--o{ SURGERIES : undergoes
+PATIENTS ||--o{ TEST_RECORDS : receives
+PATIENTS ||--o{ OUTCOMES : has
+
+DOCTORS ||--o{ ADMISSIONS : admits
+DOCTORS ||--o{ PATIENT_DIAGNOSES : diagnoses
+DOCTORS ||--o{ PATIENT_MEDICATIONS : prescribes
+DOCTORS ||--o{ SURGERIES : performs
+DOCTORS ||--o{ TEST_RECORDS : orders
+
+DISEASES ||--o{ PATIENT_DIAGNOSES : appears_in
+
+BEDS ||--o{ ADMISSIONS : assigned_to
+ADMISSIONS ||--|| BILLING : generates
+BILLING ||--o{ BILLING_ITEMS : contains
+ADMISSIONS ||--o{ PATIENT_DIAGNOSES : includes
+ADMISSIONS ||--o{ PATIENT_MEDICATIONS : includes
+ADMISSIONS ||--o{ SURGERIES : includes
+ADMISSIONS ||--o{ TEST_RECORDS : includes
+ADMISSIONS ||--|| OUTCOMES : ends_with
+
+MEDICATIONS ||--o{ PATIENT_MEDICATIONS : used_in
+SURGERY_ROOMS ||--o{ SURGERIES : hosts
+DIAGNOSTICS ||--o{ TEST_RECORDS : recorded_as

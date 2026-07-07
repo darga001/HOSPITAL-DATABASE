@@ -1,0 +1,489 @@
+nurse_id,nurse_name,nurse_last_name,date_of_birth,gender,email,phone_number,nurse_type,specialty,department_id,wing_id,shift_type,employment_status_active,vacation_status,salary
+1,Nicholas,Martin,1991-07-11,Male,vwilliams@example.net,(301)263-6039x700,RN,Emergency Room,18,1,Day,True,True,59438
+2,Juan,Evans,1960-05-24,Male,davidriley@example.net,785.233.3484x5767,RN,Emergency Room,18,1,Night,True,False,59571
+3,Paul,Guerra,1989-10-19,Male,theresapittman@example.net,571.763.1778x2085,LPN,Emergency Room,18,1,Night,True,False,74979
+4,Theresa,Ortega,1998-07-14,Female,opatterson@example.net,724.248.6184,RN,Emergency Room,18,1,Day,True,False,66459
+5,Kelly,Kim,1988-05-17,Male,tammygonzalez@example.org,001-569-547-5436x6905,RN,Emergency Room,18,1,Day,True,False,67962
+6,Curtis,Shaw,1972-05-10,Male,christopherjones@example.com,001-846-446-7180x029,RN,Emergency Room,18,1,Night,True,False,65680
+7,Brian,Fernandez,2001-08-17,Male,timothymonroe@example.com,001-313-365-0201x51942,LPN,Emergency Room,18,1,Day,True,False,58816
+8,Robert,Craig,2002-07-31,Male,moorestacey@example.net,+1-651-715-0128x594,RN,Emergency Room,18,1,Night,True,False,71569
+9,Regina,Baldwin,1990-04-07,Female,kmoore@example.com,+1-828-362-3813x806,LPN,Emergency Room,18,1,Night,True,False,69848
+10,Christine,Lucas,1979-04-05,Female,john14@example.net,415.218.2173x81175,RN,Emergency Room,18,1,Day,True,False,72379
+11,Julia,Miller,2003-05-23,Female,amanda78@example.com,544-230-0742,RN,Emergency Room,18,1,Day,True,False,74993
+12,Charles,Cruz,1970-06-04,Male,amberburke@example.net,827-530-3442x3582,RN,Emergency Room,18,1,Day,True,False,61942
+13,Andrea,Mitchell,1978-03-08,Female,xjimenez@example.net,(361)570-5559x436,RN,Emergency Room,18,1,Rotating,True,False,70376
+14,Andrew,Welch,1964-02-04,Male,bryantstanley@example.org,742.999.9754x140,CNA,Emergency Room,18,1,Night,True,False,60758
+15,Jacob,Dillon,1974-12-22,Male,douglasalicia@example.org,001-355-554-2269x0778,RN,Emergency Room,18,1,Night,True,False,66177
+16,Grant,Bailey,1993-11-10,Male,rblair@example.org,001-893-668-4476,RN,Emergency Room,18,1,Night,True,False,61714
+17,Kyle,Wilson,1975-03-31,Male,patrick91@example.net,(967)833-9371x72859,CNA,Emergency Room,18,1,Day,True,False,66323
+18,Joshua,Hubbard,1964-09-19,Male,bjames@example.com,(955)574-6898x888,RN,Emergency Room,18,1,Day,True,False,66149
+19,Ryan,Chapman,2000-12-01,Male,groberts@example.net,483.876.1753,LPN,Emergency Room,18,1,Rotating,True,False,66852
+20,Matthew,Mitchell,1968-08-19,Male,brianavila@example.net,+1-702-950-2270x5093,LPN,Emergency Room,18,1,Night,True,False,57396
+21,Laura,Kelly,1975-04-17,Female,timothy68@example.com,881-580-0568x28117,RN,Emergency Room,18,1,Day,True,False,57771
+22,Christopher,George,1987-01-09,Male,anthonyhawkins@example.com,8019517016,RN,Emergency Room,18,1,Night,True,False,58788
+23,Elizabeth,Webb,1982-05-31,Female,ann28@example.net,792-926-2517x2814,RN,Emergency Room,18,1,Day,True,True,60085
+24,Melvin,Webb,1963-09-05,Male,foxgeorge@example.net,(583)591-8691,RN,Emergency Room,18,1,Day,True,False,63529
+25,Michael,Patrick,1970-01-28,Male,vazquezcatherine@example.org,9577199748,LPN,Emergency Room,18,1,Night,True,False,62371
+26,Nicholas,Bennett,1975-01-28,Male,williamsemily@example.net,001-992-385-7428,RN,Emergency Room,18,1,Night,True,False,70548
+27,Antonio,Mitchell,1964-10-21,Male,hillkatherine@example.org,001-267-863-8451x2148,RN,Emergency Room,18,1,Day,True,False,68594
+28,Lauren,Mendez,1978-07-31,Female,fhartman@example.com,(227)709-1815,RN,Emergency Room,18,1,Rotating,True,False,59540
+29,Angelica,Miller,1982-06-22,Female,hancockrussell@example.net,+1-611-963-8180,RN,Emergency Room,18,1,Night,True,False,57093
+30,James,Smith,1980-09-12,Male,egriffith@example.com,+1-595-903-2777x2710,CNA,Emergency Room,18,1,Rotating,True,False,64719
+31,Denise,Myers,2002-10-07,Female,yatesdennis@example.com,+1-255-795-4867x3094,LPN,Emergency Room,18,1,Day,True,False,60569
+32,Anna,Weaver,1996-01-15,Female,nbowman@example.com,459.314.2800x3396,RN,Emergency Room,18,1,Day,True,False,70446
+33,Jesse,Watson,1982-09-25,Male,christopherbradley@example.com,8589623257,RN,Emergency Room,18,1,Night,True,False,69595
+34,Leslie,Coleman,2000-11-22,Female,chad65@example.com,444-353-6458,RN,Emergency Room,18,1,Night,True,False,67577
+35,Gloria,Brooks,1975-10-26,Female,joshua81@example.org,301-522-6237x80599,RN,Emergency Room,18,1,Day,True,False,58174
+36,Reginald,West,1974-11-16,Male,hannah46@example.org,+1-710-699-2648x7073,RN,Emergency Room,18,1,Rotating,True,False,60917
+37,Raymond,Allen,1998-12-22,Male,ggray@example.com,+1-690-978-2216x41812,RN,Emergency Room,18,1,Day,True,False,69575
+38,Paul,Perez,1984-10-08,Male,luis24@example.net,754-921-0869,RN,Emergency Room,18,1,Day,True,False,59614
+39,Jessica,Watkins,1978-12-21,Female,fritzmelissa@example.org,489-600-3407,RN,Emergency Room,18,1,Night,True,False,63310
+40,Reginald,Harrison,1999-02-05,Male,ellisrandy@example.com,406-843-5069x817,RN,Emergency Room,18,1,Rotating,True,False,61986
+41,Ashley,Farmer,1988-07-21,Female,jenkinsdanielle@example.org,+1-690-594-7814x6242,LPN,Emergency Room,18,1,Night,True,False,59737
+42,Jason,Hunter,1987-12-01,Male,tabitha79@example.com,(279)754-0843x3282,RN,Emergency Room,18,1,Rotating,True,False,56188
+43,Michael,Morris,1997-05-26,Male,marshallanthony@example.org,621.689.1790,CNA,Emergency Room,18,1,Rotating,True,False,62586
+44,Sarah,Nelson,2002-11-23,Female,braunann@example.com,730.567.7498x6875,LPN,Emergency Room,18,1,Day,True,False,56374
+45,Kevin,Williams,1990-02-14,Male,evanstracy@example.net,001-923-283-9231x56274,RN,Emergency Room,18,1,Rotating,True,False,60011
+46,Sheila,Kelley,1987-08-30,Female,whitewilliam@example.com,450.348.2324x4043,RN,Emergency Room,18,1,Day,True,False,55630
+47,Ashley,Bonilla,1964-08-22,Female,brookskelly@example.org,(634)768-5641,RN,Emergency Room,18,1,Rotating,True,False,69408
+48,Donna,Hardy,1968-04-10,Female,umedina@example.org,514-209-6979x84461,LPN,Emergency Room,18,1,Night,True,False,72377
+49,Lisa,Johnson,1974-07-26,Female,mcooper@example.org,(636)582-1364,RN,Emergency Room,18,1,Day,True,False,67842
+50,Jorge,Henderson,1992-06-12,Male,nhouston@example.org,(397)804-8914x65066,RN,Emergency Room,18,1,Rotating,True,False,57874
+51,Gary,York,1991-04-11,Male,alexistran@example.com,+1-869-603-0347x780,RN,Emergency Room,18,1,Day,True,False,59441
+52,Charles,Diaz,1988-10-20,Male,eugenejohnson@example.org,+1-486-349-7652x38675,LPN,Emergency Room,18,1,Night,True,False,60994
+53,Tanner,Gonzalez,2001-04-23,Male,william85@example.org,2186751185,LPN,Emergency Room,18,1,Night,True,False,57616
+54,Joshua,Koch,1966-01-24,Male,morgancarl@example.org,693-505-2489,LPN,Emergency Room,18,1,Night,True,False,73930
+55,Cynthia,Smith,1964-10-06,Female,hudsondeborah@example.com,001-324-464-0752x888,RN,Emergency Room,18,1,Rotating,True,False,67241
+56,Jordan,Steele,1968-03-19,Male,joshua68@example.org,+1-213-709-8445,RN,Emergency Room,18,1,Day,True,False,67989
+57,Charles,Berg,1984-09-19,Male,michaelrodriguez@example.com,358-485-0904x2503,RN,Emergency Room,18,1,Night,True,False,70510
+58,Kimberly,Chapman,1989-01-21,Female,summeranderson@example.net,(825)307-3111,RN,Emergency Room,18,1,Day,True,False,59027
+59,Jorge,Martinez,1978-06-05,Male,hernandezregina@example.com,+1-298-902-8427x5393,CNA,Emergency Room,18,1,Day,True,False,61585
+60,Thomas,Meadows,1984-09-16,Male,timothycervantes@example.net,937-381-7037x56289,RN,Emergency Room,18,1,Day,True,False,57467
+61,Marilyn,Martin,1966-06-25,Female,megan94@example.net,+1-696-318-4046,RN,Emergency Room,18,1,Night,True,False,71336
+62,Melissa,Avila,1991-08-23,Female,zjohnson@example.org,913.266.5647x17665,LPN,Emergency Room,18,1,Day,True,False,55151
+63,Roy,Morris,1965-06-16,Male,theresahull@example.com,001-425-879-1353x60119,RN,Emergency Room,18,1,Day,True,False,64091
+64,Katelyn,Moran,1985-05-19,Female,erin41@example.org,(533)679-2473x16028,LPN,Emergency Room,18,1,Night,True,False,70742
+65,Jessica,Brooks,1968-06-12,Female,rodriguezcindy@example.org,505-882-4469x18005,RN,Emergency Room,18,1,Night,True,False,55108
+66,Robert,Hayden,1990-05-05,Male,aellis@example.net,001-318-331-2462,RN,Emergency Room,18,1,Night,True,False,64724
+67,Robert,Cantrell,1981-07-02,Male,mary60@example.net,798.792.6201x84191,RN,Emergency Room,18,1,Rotating,True,False,67564
+68,Anna,Gross,1989-12-14,Female,mhernandez@example.com,001-840-907-7603x645,RN,Emergency Room,18,1,Rotating,True,False,62527
+69,Joseph,Hart,2001-05-29,Male,lorraineho@example.org,+1-514-452-0762x3459,LPN,Emergency Room,18,1,Night,True,True,71813
+70,Thomas,Davidson,2004-03-10,Male,denise67@example.org,+1-444-660-0831,RN,Emergency Room,18,1,Rotating,True,False,68539
+71,Isaac,Hill,1992-05-20,Male,flynndavid@example.org,2158971585,RN,Emergency Room,18,1,Day,True,False,62311
+72,Lawrence,Bennett,2000-10-17,Male,keithvang@example.net,+1-275-747-7764x0472,RN,Emergency Room,18,1,Night,True,False,69092
+73,Heather,Wong,1971-08-04,Female,uschmitt@example.com,+1-388-681-6498,CNA,Emergency Room,18,1,Night,True,False,62964
+74,Renee,Webb,1992-06-17,Female,laura78@example.net,337-954-0169x0437,CNA,Emergency Room,18,1,Rotating,True,False,74577
+75,Brandon,Nguyen,1989-11-24,Male,hhansen@example.com,205-855-8286x21570,RN,Emergency Room,18,1,Day,True,False,57256
+76,Chad,Hansen,1979-04-03,Male,riversjoseph@example.com,4202263571,CNA,Emergency Room,18,1,Night,True,False,73220
+77,Kyle,Young,1962-01-17,Male,brettbaker@example.net,671.854.6589x89212,RN,Emergency Room,18,1,Night,True,False,58884
+78,Michael,Hoffman,1996-11-21,Male,jonathankoch@example.com,(983)734-2253,RN,Emergency Room,18,1,Night,True,True,57593
+79,John,Kramer,1978-03-07,Male,robertmitchell@example.com,(365)583-3842x161,RN,Emergency Room,18,1,Day,True,False,69123
+80,Mary,Hopkins,1967-06-05,Female,laurabarrett@example.net,(760)221-8633,RN,Emergency Room,18,1,Night,True,False,68893
+81,Tiffany,Jackson,1988-04-17,Female,hansonbecky@example.net,977.563.4976x8262,RN,Emergency Room,18,1,Day,True,False,70244
+82,Jacqueline,Lewis,2002-12-23,Female,rdecker@example.org,001-714-344-8718x62994,RN,Emergency Room,18,1,Rotating,True,False,60663
+83,Alexander,Keller,1962-07-26,Male,sethpeck@example.org,(767)876-2518x7076,RN,Emergency Room,18,1,Night,True,False,73132
+84,Kathryn,Sosa,1979-05-09,Female,ryan54@example.net,001-964-415-2854x36689,RN,Emergency Room,18,1,Day,True,False,72715
+85,Bryan,Edwards,2000-07-25,Male,villarrealerica@example.org,(263)754-1314,RN,Emergency Room,18,1,Rotating,True,False,57133
+86,Amanda,Lewis,1988-08-14,Female,hernandezvicki@example.org,(876)487-8159x077,CNA,Emergency Room,18,1,Day,True,False,57051
+87,Kristen,Salas,1962-03-26,Female,johnmoore@example.com,(600)497-6314x6076,LPN,Emergency Room,18,1,Night,True,False,63297
+88,Joel,Ruiz,1996-09-16,Male,sdoyle@example.com,257.899.6905x37239,RN,Emergency Room,18,1,Day,True,False,58825
+89,Anthony,Diaz,1992-11-10,Male,jrobinson@example.net,324.342.5207x8474,RN,Emergency Room,18,1,Day,True,False,60753
+90,Breanna,Lyons,1987-11-11,Female,henry21@example.net,602.479.0991x45395,RN,Emergency Room,18,1,Night,True,False,70646
+91,Johnny,Ward,1964-07-20,Male,brentpierce@example.org,001-734-930-7507x61529,RN,Emergency Room,18,1,Rotating,True,False,60343
+92,Kevin,Gibbs,1984-03-20,Male,imoran@example.com,001-295-837-8161x41392,RN,Emergency Room,18,1,Night,True,False,68494
+93,Megan,Clark,1972-07-30,Female,regina73@example.net,7966155995,LPN,Emergency Room,18,1,Day,True,False,58269
+94,Veronica,Moore,1981-04-23,Female,matthewjones@example.net,+1-255-777-5993x965,RN,Emergency Room,18,1,Day,True,False,74522
+95,Jordan,Gibson,1988-10-05,Male,ureyes@example.net,(379)584-9060x662,RN,Emergency Room,18,1,Day,True,False,58750
+96,Nicole,Johnson,1972-06-02,Female,vgreene@example.com,001-875-607-0251x9966,RN,Emergency Room,18,1,Day,True,False,56801
+97,Dakota,Myers,1994-01-23,Male,deborah56@example.net,756.855.4844,RN,Emergency Room,18,1,Rotating,True,False,66845
+98,Emily,Jackson,1967-07-06,Female,diana73@example.org,(775)794-9173,RN,Emergency Room,18,1,Night,True,False,56691
+99,Kristen,Jones,1999-07-04,Female,michaelrobinson@example.org,001-992-558-3719x3297,RN,Emergency Room,18,1,Night,True,False,59898
+100,Angel,Campbell,2000-08-19,Female,xanderson@example.com,(887)582-9525x15425,RN,Emergency Room,18,1,Rotating,True,False,67843
+101,Emily,Gordon,2004-05-16,Female,ecunningham@example.net,979.287.6530,RN,Emergency Room,18,1,Night,True,True,55491
+102,Traci,King,1972-11-06,Female,gmedina@example.com,559.861.6608x16334,RN,Emergency Room,18,1,Night,True,False,69749
+103,George,Kelly,1988-07-16,Male,melissagraham@example.com,(528)993-3674,CNA,Emergency Room,18,1,Day,True,False,64839
+104,Sherri,White,1998-04-22,Female,paul61@example.com,636-383-0476,CNA,Emergency Room,18,1,Night,True,False,56415
+105,Dylan,Miller,1972-12-08,Male,melissa20@example.com,+1-445-739-4013x74763,LPN,Emergency Room,18,1,Day,True,False,66514
+106,Alex,Wagner,1962-12-31,Male,steven90@example.org,641.378.6805x55450,RN,Emergency Room,18,1,Day,True,False,68077
+107,Steven,Ward,1985-05-10,Male,derek60@example.com,763.593.0056,RN,Emergency Room,18,1,Night,True,False,73615
+108,Sarah,Pena,1982-03-23,Female,michael37@example.org,(784)616-9665,LPN,Emergency Room,18,1,Night,True,False,61531
+109,Benjamin,Fisher,1964-09-16,Male,jimcochran@example.org,289-652-0138x711,RN,Emergency Room,18,1,Rotating,True,False,68565
+110,Jesse,Velasquez,1988-12-26,Male,angela58@example.org,362.353.1518,RN,Emergency Room,18,1,Day,True,False,61239
+111,Anthony,Jennings,2001-04-18,Male,shawnwilliams@example.org,(205)872-4108,CNA,Emergency Room,18,1,Day,True,False,62019
+112,Brittany,Cox,1988-12-25,Female,ronald27@example.org,788.537.7736x06460,RN,Emergency Room,18,1,Day,True,False,70195
+113,Theresa,Alexander,1988-04-17,Female,usullivan@example.org,4336924768,RN,Emergency Room,18,1,Night,True,False,58248
+114,Jacob,Bush,1967-09-01,Male,debra59@example.net,960.368.1328x9270,RN,Emergency Room,18,1,Day,True,False,62858
+115,Nicole,White,1986-04-28,Female,uclark@example.org,+1-894-248-8285x4204,RN,Emergency Room,18,1,Night,True,False,64555
+116,Raymond,Kline,1964-08-22,Male,chaneyjames@example.com,232.623.6682,RN,Emergency Room,18,1,Night,True,False,69243
+117,Kevin,Stewart,1967-10-15,Male,ymurphy@example.org,(551)486-7586,RN,Emergency Room,18,1,Rotating,True,False,61938
+118,James,Newman,1993-02-17,Male,mary90@example.org,909-447-3033,RN,Gastroenterology,17,2,Night,True,False,65851
+119,Christy,Gray,1996-01-30,Female,greendawn@example.net,540.253.9487x1770,RN,Gastroenterology,17,2,Night,True,False,68803
+120,Marisa,Smith,1961-05-04,Female,christina83@example.net,(430)753-6332x4594,LPN,Gastroenterology,17,2,Night,True,False,55443
+121,Melissa,Jones,1977-10-29,Female,mjames@example.com,4322275479,RN,Gastroenterology,17,2,Day,True,False,65797
+122,Virginia,Lara,1995-10-27,Female,dennis76@example.com,(366)517-5740x785,RN,Gastroenterology,17,2,Rotating,True,False,70312
+123,Timothy,Johnson,1975-03-13,Male,jessesmith@example.org,001-844-999-1831x388,LPN,Gastroenterology,17,2,Night,True,False,72246
+124,Samantha,Robinson,1960-06-25,Female,jennifer14@example.org,587-377-5385x48730,RN,Gastroenterology,17,2,Rotating,True,False,73967
+125,Jordan,Willis,1961-05-23,Male,dianelee@example.com,583.657.6449x037,RN,Gastroenterology,17,2,Day,True,False,62164
+126,Robin,Hull,1976-07-24,Female,ericadouglas@example.net,915.886.2918x51304,LPN,Gastroenterology,17,2,Night,True,False,55841
+127,Abigail,Garcia,1982-11-29,Female,jameskenneth@example.net,581-336-6480,RN,Gastroenterology,17,2,Night,True,False,59193
+128,Terry,Walker,1984-06-13,Male,fernandezfrank@example.net,754-705-8039x07511,RN,Gastroenterology,17,2,Day,True,False,63793
+129,Justin,Thompson,2001-09-03,Male,lgutierrez@example.net,(266)363-4005x375,RN,Gastroenterology,17,2,Night,True,False,68862
+130,Andrew,Robinson,1963-05-01,Male,stevencarter@example.net,4559036671,RN,Gastroenterology,17,2,Night,True,False,56080
+131,Douglas,Brown,1991-11-30,Male,paul33@example.net,(538)448-9231x8787,RN,Gastroenterology,17,2,Day,True,False,60286
+132,Hannah,Mueller,1964-09-24,Female,castanedabryan@example.net,852.404.3054,RN,Gastroenterology,17,2,Day,True,False,74995
+133,Jacob,Harris,2000-11-03,Male,dianewood@example.net,001-934-662-9378,RN,Gastroenterology,17,2,Night,True,False,72643
+134,Jessica,Rodriguez,1994-11-05,Female,kristinaroberts@example.org,(664)321-8070,RN,Gastroenterology,17,2,Rotating,True,False,59697
+135,Alexis,Gray,2001-09-09,Female,perezsarah@example.net,792-740-2202x980,RN,Gastroenterology,17,2,Day,True,False,73093
+136,Christy,Pruitt,1978-03-24,Female,pattersonjames@example.org,987-252-4154x28752,RN,Gastroenterology,17,2,Day,True,False,60059
+137,Angel,Stuart,1988-12-04,Male,cdavenport@example.com,(608)374-6479,LPN,Gastroenterology,17,2,Day,True,True,74772
+138,Crystal,Lopez,1960-04-24,Female,cohenzachary@example.net,+1-519-764-6485x57148,LPN,Gastroenterology,17,2,Night,True,False,62378
+139,Gloria,Hardin,1982-02-14,Female,howardjonathan@example.org,(440)694-9580x4494,RN,Gastroenterology,17,2,Rotating,True,False,55823
+140,Cindy,Johnson,1973-12-13,Female,lindseyjaime@example.net,001-725-939-1137x612,RN,Gastroenterology,17,2,Day,True,False,63015
+141,Jennifer,Ayala,1978-06-14,Female,shannon07@example.org,826.319.8516x7641,LPN,Gastroenterology,17,2,Day,True,False,67409
+142,Bruce,Briggs,1961-09-28,Male,christianbailey@example.com,410-496-2793,RN,Rheumatology,12,3,Night,True,False,64651
+143,Troy,Meyers,1971-05-10,Male,rfitzgerald@example.org,(630)548-9998,CNA,Rheumatology,12,3,Rotating,True,False,68248
+144,Dennis,Young,1995-12-11,Male,abigailrodriguez@example.net,+1-850-375-1290x8605,LPN,Rheumatology,12,3,Night,True,False,55362
+145,Diana,Wright,2003-03-05,Female,florestiffany@example.com,(513)955-5914x79497,CNA,Rheumatology,12,3,Day,True,False,61435
+146,Troy,Anderson,1974-08-25,Male,kayla80@example.org,(976)926-7160x4594,LPN,Rheumatology,12,3,Rotating,True,False,70029
+147,Jason,Gentry,1980-11-04,Male,cameron72@example.org,429-622-7258x057,RN,Rheumatology,12,3,Night,True,False,71663
+148,Matthew,Martinez,1981-10-21,Male,washingtonkent@example.com,(888)251-2181x5572,RN,Rheumatology,12,3,Day,True,False,73041
+149,Gregory,Baker,1988-11-10,Male,ramirezchristopher@example.org,001-838-973-0253x40314,LPN,Rheumatology,12,3,Day,True,False,55011
+150,Adam,Obrien,1993-04-16,Male,michael60@example.net,915-240-6590,RN,Rheumatology,12,3,Night,True,False,68706
+151,Deborah,Garcia,1964-11-06,Female,jonathan66@example.org,(574)228-1220,CNA,Rheumatology,12,3,Day,True,False,64936
+152,Julie,Dean,1965-11-08,Female,tpatton@example.com,765-401-4841x31105,LPN,Rheumatology,12,3,Rotating,True,False,72758
+153,Stephanie,Henderson,1996-04-17,Female,matthewrodriguez@example.org,620.875.4981x6096,RN,Rheumatology,12,3,Day,True,False,63410
+154,Michelle,Robinson,1993-03-12,Female,jconley@example.com,001-425-299-4145x437,RN,Rheumatology,12,3,Night,True,True,73142
+155,James,Curtis,1973-07-19,Male,uparsons@example.net,392.372.1039,RN,Rheumatology,12,3,Day,True,False,64224
+156,Jessica,Jones,1963-08-30,Female,marycurtis@example.net,+1-516-775-5257x256,RN,Rheumatology,12,3,Night,True,False,60242
+157,Paul,Torres,1974-06-17,Male,blairjulie@example.com,338-698-7134x79936,RN,Rheumatology,12,3,Night,True,False,56084
+158,Jeff,Erickson,1967-09-06,Male,gonzalezapril@example.com,001-539-800-1779x93431,LPN,Rheumatology,12,3,Night,True,False,59062
+159,Maria,Perkins,1967-06-29,Female,johnherman@example.net,(555)703-0876x587,RN,Rheumatology,12,3,Day,True,False,58526
+160,Laura,Jackson,1992-07-26,Female,john61@example.com,001-902-268-8577x383,LPN,Rheumatology,12,3,Night,True,False,69036
+161,Jose,Conner,1970-06-23,Male,amberwheeler@example.net,(514)229-7905x4204,LPN,Rheumatology,12,3,Night,True,False,64283
+162,Kara,Davis,1988-12-02,Female,ruizdouglas@example.org,+1-605-459-3769x548,RN,Rheumatology,12,3,Rotating,True,False,64525
+163,Sean,Jones,1978-03-20,Male,javierpayne@example.org,652-226-7550x913,LPN,Rheumatology,12,3,Day,True,False,63645
+164,Lisa,Lewis,1993-03-08,Female,ogarcia@example.net,001-975-428-7572x75019,RN,Rheumatology,12,3,Day,True,False,60691
+165,Louis,Delgado,1971-12-08,Male,joseph56@example.org,+1-377-680-5892,RN,Rheumatology,12,3,Day,True,False,70204
+166,Jeffrey,Williams,1982-08-27,Male,murphyalisha@example.org,(985)835-2481x80627,RN,Cardiology,1,3,Day,True,False,65115
+167,Dean,Carson,2002-01-14,Male,danielleramirez@example.net,(915)988-6697x17774,RN,Cardiology,1,3,Day,True,False,70205
+168,Stacey,Wright,1981-11-09,Female,kimberlyvelasquez@example.org,6039554570,RN,Cardiology,1,3,Night,True,True,62241
+169,Ashlee,Davis,1994-10-16,Female,harold44@example.net,556-999-2245x08577,RN,Cardiology,1,3,Day,True,False,70712
+170,Stacey,Church,2000-05-22,Female,jjoyce@example.com,001-604-334-2007x9920,RN,Cardiology,1,3,Day,True,True,55898
+171,Luis,Williams,1999-08-15,Male,xgarcia@example.net,(445)890-8726x335,RN,Cardiology,1,3,Night,True,False,67347
+172,Jeremy,Johnson,1978-05-15,Male,xhart@example.net,711.716.2131x43325,LPN,Cardiology,1,3,Day,True,False,59287
+173,Jody,Miller,1990-06-21,Female,hflores@example.org,(334)939-6324x5745,RN,Cardiology,1,3,Night,True,False,70813
+174,Thomas,Hardy,1978-02-23,Male,jessica21@example.net,557-541-1647,RN,Cardiology,1,3,Day,True,False,62749
+175,Jane,Huang,1967-09-27,Female,david82@example.com,5517663965,RN,Cardiology,1,3,Night,True,False,72317
+176,Brenda,Martin,2002-10-26,Female,amanda07@example.org,3219334266,RN,Cardiology,1,3,Day,True,False,59469
+177,Maurice,Nunez,1983-07-07,Male,ramirezjanice@example.net,+1-434-395-8242x57110,RN,Cardiology,1,3,Night,True,True,68983
+178,Seth,Anderson,1989-03-19,Male,ronald33@example.net,+1-790-255-9914x91625,RN,Cardiology,1,3,Night,True,False,69249
+179,Calvin,James,1996-04-07,Male,ryanjones@example.com,+1-459-511-8665,RN,Cardiology,1,3,Rotating,True,False,64750
+180,Marie,Rojas,1961-06-19,Female,longjudy@example.com,+1-492-555-3581x435,RN,Cardiology,1,3,Rotating,True,False,74148
+181,Elizabeth,Mcdaniel,1976-09-07,Female,nancyhickman@example.net,(855)509-0313,CNA,Cardiology,1,3,Night,True,False,63941
+182,Rebecca,Vargas,1961-03-10,Female,kerrimccoy@example.com,+1-691-264-2957,RN,Cardiology,1,3,Night,True,True,66196
+183,Melissa,Patterson,1989-07-14,Female,weavereric@example.com,965-789-1057x1416,CNA,Cardiology,1,3,Rotating,True,False,62145
+184,Kimberly,Jones,1962-05-04,Female,xsavage@example.net,+1-973-355-6458x91292,CNA,Cardiology,1,3,Day,True,False,55109
+185,Bradley,Cabrera,1982-03-08,Male,knoxlaura@example.net,7183658621,LPN,Cardiology,1,3,Day,True,False,65473
+186,Katherine,Boyd,2001-04-27,Female,kaylagrant@example.com,4422743820,LPN,Cardiology,1,3,Night,True,False,57174
+187,Samuel,Rose,1980-07-28,Male,paulcarroll@example.com,001-968-478-8927x320,RN,Cardiology,1,3,Rotating,True,False,56496
+188,Alexis,Mathews,1978-11-09,Female,gary84@example.org,951.695.8435x502,RN,Cardiology,1,3,Night,True,False,71461
+189,Tammy,Morales,1966-11-05,Female,asalas@example.net,001-625-476-7796x96264,RN,Cardiology,1,3,Day,True,True,69300
+190,David,Johns,1964-08-27,Male,allen28@example.org,001-460-763-5798x2250,RN,Cardiology,1,3,Day,True,False,66908
+191,Jasmine,Chang,1982-04-18,Female,maddenpaul@example.net,(860)883-6605x8739,RN,Cardiology,1,3,Rotating,True,False,55148
+192,Jamie,Thompson,1990-03-11,Female,anthony05@example.com,5633887721,LPN,Cardiology,1,3,Night,True,False,71604
+193,Andrew,Sanchez,1988-11-17,Male,jacobcasey@example.com,(680)245-9925,RN,Cardiology,1,3,Rotating,True,False,62902
+194,Melissa,Bonilla,1967-12-29,Female,matthew96@example.org,+1-427-831-0260x14231,RN,Obstetrics & Maternity,21,5,Night,True,False,57117
+195,Bryan,Tucker,1990-02-02,Male,michaelspears@example.net,(580)933-1276,RN,Obstetrics & Maternity,21,5,Day,True,False,61361
+196,Timothy,Rojas,1971-12-19,Male,johnsonscott@example.com,498-448-6837x37024,RN,Obstetrics & Maternity,21,5,Day,True,False,60376
+197,Juan,Coffey,1991-06-18,Male,kaitlyndavis@example.org,(719)359-5849x563,RN,Obstetrics & Maternity,21,5,Night,True,False,69624
+198,Carol,Alvarado,1988-06-16,Female,xkelly@example.net,662.527.7000x446,RN,Obstetrics & Maternity,21,5,Night,True,False,73046
+199,Alyssa,Lee,1996-08-21,Female,collinsbrandon@example.net,629.933.5374x959,RN,Obstetrics & Maternity,21,5,Rotating,True,False,70170
+200,Matthew,Ward,1989-06-29,Male,thorntonsharon@example.com,+1-791-932-5918x208,RN,Obstetrics & Maternity,21,5,Rotating,True,False,69768
+201,Stephanie,Marquez,2000-10-31,Female,qfields@example.com,+1-369-680-8912,CNA,Obstetrics & Maternity,21,5,Rotating,True,False,60055
+202,Andrea,Wright,1993-11-04,Female,karenhart@example.org,001-570-964-9044,LPN,Obstetrics & Maternity,21,5,Night,True,False,73692
+203,Amanda,Aguilar,1977-04-18,Female,amartinez@example.net,+1-954-832-9749x5898,RN,Obstetrics & Maternity,21,5,Rotating,True,True,55500
+204,Benjamin,Jones,1964-08-19,Male,joanne67@example.net,(826)885-0357x81525,LPN,Obstetrics & Maternity,21,5,Day,True,False,60554
+205,Stephen,Smith,1997-07-07,Male,wgeorge@example.net,+1-689-328-9558,RN,Obstetrics & Maternity,21,5,Night,True,False,65839
+206,Nicole,Miller,1970-11-08,Female,nancyhernandez@example.com,2136343030,LPN,Obstetrics & Maternity,21,5,Night,True,False,59314
+207,Brittany,Mckinney,1993-09-28,Female,lee92@example.com,9769052639,RN,Obstetrics & Maternity,21,5,Day,True,False,72432
+208,William,Richardson,2004-09-21,Male,larsonjennifer@example.com,(726)674-5964x640,RN,Obstetrics & Maternity,21,5,Day,True,False,59497
+209,Jessica,Roy,1988-05-03,Female,gatesryan@example.net,001-668-256-4066x951,RN,Obstetrics & Maternity,21,5,Day,True,False,55952
+210,Steven,Duarte,1996-03-22,Male,stephanie39@example.org,637.632.8466x793,CNA,Obstetrics & Maternity,21,5,Night,True,False,60443
+211,Stephen,Skinner,1991-12-22,Male,kingdavid@example.com,9304378711,CNA,Obstetrics & Maternity,21,5,Rotating,True,False,55321
+212,Edward,Stevens,1984-06-30,Male,williamgentry@example.net,504-951-1193x699,RN,Obstetrics & Maternity,21,5,Night,True,False,66008
+213,Jared,Watson,1981-02-21,Male,suethompson@example.com,947-568-1921x45465,RN,Obstetrics & Maternity,21,5,Night,True,False,69067
+214,Heidi,Diaz,1961-04-02,Female,ariana39@example.org,+1-257-472-9933x8465,LPN,Obstetrics & Maternity,21,5,Day,True,False,71493
+215,Audrey,Smith,1980-09-24,Female,kathleen81@example.net,(689)903-2263,RN,Obstetrics & Maternity,21,5,Day,True,True,64718
+216,William,Reed,2003-02-04,Male,jonathan77@example.org,638-581-2142x9828,RN,Obstetrics & Maternity,21,5,Day,True,False,56810
+217,Charles,Lewis,1997-02-27,Male,hernandezkathleen@example.com,+1-948-811-0990,RN,Obstetrics & Maternity,21,5,Rotating,True,False,74549
+218,Jason,Simmons,1973-09-20,Male,ccurry@example.com,924-459-8896x14735,RN,Obstetrics & Maternity,21,5,Day,True,False,74456
+219,Patrick,Boone,1981-12-23,Male,aliciabailey@example.org,200-727-5462x1264,LPN,Obstetrics & Maternity,21,5,Night,True,False,57283
+220,James,Dunn,1994-02-05,Male,cassandracook@example.org,742-480-3169x362,RN,Obstetrics & Maternity,21,5,Night,True,False,72839
+221,Jasmine,Jackson,1983-06-24,Female,debrahansen@example.com,963.620.2028x704,LPN,Obstetrics & Maternity,21,5,Day,True,False,62757
+222,Jennifer,Duncan,1998-08-11,Female,kellie83@example.org,+1-444-601-2256,RN,Pediatrics,20,5,Rotating,True,False,66452
+223,Michael,Hill,1971-02-19,Male,rosemartin@example.com,+1-915-652-2036x09997,RN,Pediatrics,20,5,Night,True,False,59960
+224,Debbie,Cox,1982-10-16,Female,ejordan@example.org,(649)281-5963x2902,RN,Pediatrics,20,5,Day,True,False,73179
+225,Michael,Burke,1999-10-23,Male,christopher03@example.org,4026265633,LPN,Pediatrics,20,5,Rotating,True,False,57976
+226,Lauren,Todd,1990-08-02,Female,kaitlynharris@example.net,001-815-252-0261,RN,Pediatrics,20,5,Day,True,False,57419
+227,Ryan,Maddox,1996-06-21,Male,williamskenneth@example.net,(519)911-8707,RN,Pediatrics,20,5,Day,True,False,61008
+228,David,Bentley,1977-01-11,Male,alexandratran@example.org,238.263.7813x438,RN,Pediatrics,20,5,Day,True,False,57346
+229,Dylan,Miles,1980-01-08,Male,perkinsrobert@example.org,(840)754-1769,RN,Pediatrics,20,5,Rotating,True,False,58570
+230,Lisa,Baker,1998-06-20,Female,yrogers@example.org,389.986.7801x08675,RN,Pediatrics,20,5,Night,True,False,58389
+231,Joseph,Woodward,1992-12-18,Male,danielcastillo@example.org,5287903676,RN,Pediatrics,20,5,Night,True,False,69174
+232,Vincent,Rivera,1978-09-25,Male,serranotheresa@example.org,6678809592,RN,Pediatrics,20,5,Day,True,False,63005
+233,Richard,Harper,1989-07-21,Male,williamsstephanie@example.net,965.795.7348,RN,Pediatrics,20,5,Day,True,False,58027
+234,Michelle,Johnston,1994-10-25,Female,justinfuller@example.com,960-203-5727,RN,Pediatrics,20,5,Day,True,False,59931
+235,Angela,Mora,1975-05-04,Female,byrdtheresa@example.net,266.505.7299,RN,Pediatrics,20,5,Night,True,False,66027
+236,Katherine,Dillon,1998-11-09,Female,vdavis@example.net,(823)774-6712,RN,Pediatrics,20,5,Rotating,True,False,58771
+237,Mary,Davis,1969-10-03,Female,amy98@example.net,5968959257,RN,Pediatrics,20,5,Day,True,False,65094
+238,Kevin,Kim,1976-07-11,Male,krystalgarcia@example.com,(905)675-4495,RN,Pediatrics,20,5,Night,True,False,55961
+239,Justin,Garcia,1976-03-11,Male,jennifer44@example.net,001-284-940-8253x708,RN,Pediatrics,20,5,Night,True,False,66068
+240,Jennifer,Sweeney,1969-09-03,Female,wilsoncarl@example.com,458.322.9843,LPN,Pediatrics,20,5,Night,True,False,72920
+241,Robert,Lambert,2000-04-07,Male,wigginsdonna@example.org,969-323-2299x082,RN,Pediatrics,20,5,Night,True,False,72669
+242,Stephanie,Mendez,1994-10-15,Female,zharrison@example.net,574.654.6170,RN,Pediatrics,20,5,Night,True,False,65409
+243,Melanie,Smith,1975-11-29,Female,brian92@example.net,001-491-412-9730,RN,Pediatrics,20,5,Day,True,False,74294
+244,Robert,Luna,1991-01-04,Male,bross@example.com,001-505-759-7766x589,RN,Pediatrics,20,5,Night,True,False,70589
+245,Kathryn,Butler,1994-12-21,Female,wolfebenjamin@example.net,874-258-9633x74221,RN,Pediatrics,20,5,Rotating,True,False,56773
+246,Christopher,Fox,1969-02-03,Male,coreyrodriguez@example.net,+1-465-872-7861,RN,Pediatrics,20,5,Day,True,False,71854
+247,Maria,Duffy,1989-05-07,Female,hayneslisa@example.net,804-917-9037x117,RN,Pediatrics,20,5,Rotating,True,False,57781
+248,Daniel,Wright,1978-06-16,Male,vnavarro@example.com,3512789684,RN,Pediatrics,20,5,Night,True,False,73115
+249,Paula,Robinson,1967-12-07,Female,amadden@example.com,360.943.7794,RN,Pediatrics,20,5,Day,True,False,69703
+250,Christopher,Ross,1991-05-25,Male,hernandezmonica@example.org,739.461.4589,LPN,Reproductive Medicine,5,5,Day,True,False,58543
+251,Susan,Stanley,2000-12-11,Female,bmartinez@example.org,001-765-308-6079x506,RN,Reproductive Medicine,5,5,Rotating,True,False,66419
+252,Christine,Mercer,1982-09-08,Female,xcampbell@example.net,400.276.7064x38540,RN,Reproductive Medicine,5,5,Night,True,False,66338
+253,Robert,Montgomery,1963-03-30,Male,hwise@example.org,001-822-905-2622x26594,RN,Reproductive Medicine,5,5,Rotating,True,False,64273
+254,Scott,Black,1998-07-17,Male,mpark@example.com,527.479.3951,RN,Reproductive Medicine,5,5,Day,True,False,55294
+255,Lauren,Garcia,1966-05-09,Female,kathryn31@example.com,975.202.5909,RN,Reproductive Medicine,5,5,Day,True,False,74609
+256,Kathy,Ortiz,1962-03-21,Female,turnersamantha@example.org,455-246-8469,RN,Reproductive Medicine,5,5,Night,True,False,61127
+257,Kim,Schultz,2001-04-30,Female,natasha16@example.com,912-698-6957x5020,CNA,Reproductive Medicine,5,5,Day,True,False,67190
+258,Karen,Smith,1961-08-02,Female,briggschristine@example.net,(611)617-1299,LPN,Reproductive Medicine,5,5,Night,True,False,58051
+259,Robert,Todd,1994-11-09,Male,richardsoncheryl@example.org,+1-568-457-9565x857,RN,Reproductive Medicine,5,5,Day,True,False,60194
+260,Bill,Griffin,1986-09-16,Male,baileyjoseph@example.com,6366718593,LPN,Reproductive Medicine,5,5,Rotating,True,False,67200
+261,Heidi,Dunn,1969-07-07,Female,cwilson@example.com,(524)954-7957x3129,RN,Reproductive Medicine,5,5,Night,True,False,74329
+262,Thomas,Long,1989-06-29,Male,kbrown@example.net,394-466-9920x0706,RN,Reproductive Medicine,5,5,Night,True,False,63303
+263,Lynn,Bryant,1964-12-28,Female,nholloway@example.org,+1-906-910-4231x73944,RN,Reproductive Medicine,5,5,Rotating,True,True,64169
+264,Michael,Kim,1965-06-10,Male,calebbruce@example.com,421-821-4349x8340,RN,Reproductive Medicine,5,5,Day,True,False,71908
+265,Christopher,Burnett,1975-01-21,Male,meganhall@example.org,001-524-333-2073,RN,Reproductive Medicine,5,5,Rotating,True,True,55719
+266,Arthur,Miller,1987-12-15,Male,sherri10@example.net,305.630.0536x506,RN,Reproductive Medicine,5,5,Rotating,True,False,74493
+267,Maria,Morrow,1994-09-03,Female,bryanfuentes@example.com,+1-912-464-3620x885,CNA,Reproductive Medicine,5,5,Day,True,False,58584
+268,Sabrina,Reynolds,1976-08-15,Female,reesetimothy@example.net,733-239-8923x05631,RN,Reproductive Medicine,5,5,Night,True,False,65613
+269,David,Mcconnell,2003-04-01,Male,meagan92@example.com,001-974-832-8504x5227,RN,Reproductive Medicine,5,5,Night,True,False,56242
+270,Emily,Mccarty,1965-10-24,Female,brownkaren@example.org,924-796-7376x540,RN,Reproductive Medicine,5,5,Night,True,False,68834
+271,Brandi,Wright,1977-12-28,Female,wileyjeffrey@example.org,(402)377-8644x938,RN,Reproductive Medicine,5,5,Night,True,False,74218
+272,Jeffrey,Hurley,1960-12-02,Male,john20@example.org,+1-223-628-7126x000,CNA,Reproductive Medicine,5,5,Day,True,True,68724
+273,Melissa,Brown,1968-03-31,Female,joshuahorton@example.com,398.874.3916,RN,Reproductive Medicine,5,5,Day,True,False,72462
+274,Jessica,Santiago,1992-08-09,Female,buchananlawrence@example.net,001-745-476-1115x438,RN,Reproductive Medicine,5,5,Day,True,False,72460
+275,Michael,Moss,1962-11-14,Male,xcoffey@example.net,+1-725-706-0769x3212,RN,Reproductive Medicine,5,5,Night,True,False,70084
+276,Ricardo,Farmer,1982-01-16,Male,john57@example.com,(344)744-3191x67496,RN,Reproductive Medicine,5,5,Night,True,False,57450
+277,Richard,Leonard,1988-10-30,Male,millsmelinda@example.com,(771)573-7168,RN,Reproductive Medicine,5,5,Day,True,False,64933
+278,Zachary,Brown,1981-03-10,Male,gomezjacqueline@example.com,+1-234-362-4019x509,RN,Intensive Care Unit,19,1,Rotating,True,False,68520
+279,Courtney,Briggs,1970-04-29,Female,anthony16@example.org,001-897-887-7928x298,RN,Intensive Care Unit,19,1,Day,True,False,73547
+280,Diana,Santos,1967-05-05,Female,lyncheric@example.com,419-558-3434x92440,RN,Intensive Care Unit,19,1,Day,True,False,63161
+281,Christopher,White,1991-05-09,Male,ccole@example.com,874.337.6258,RN,Intensive Care Unit,19,1,Rotating,True,False,60727
+282,John,Davis,1993-11-26,Male,jessica24@example.org,(755)695-3793,RN,Intensive Care Unit,19,1,Night,True,False,64383
+283,John,Tucker,1972-03-31,Male,nhunt@example.net,+1-649-204-8643x1156,RN,Intensive Care Unit,19,1,Day,True,False,58409
+284,Karen,Cook,1999-02-23,Female,phillipskaren@example.org,400.828.5679x0123,RN,Intensive Care Unit,19,1,Night,True,False,72957
+285,James,Jackson,1961-08-03,Male,gonzalezchristine@example.com,9327690128,LPN,Intensive Care Unit,19,1,Night,True,False,57205
+286,Heidi,Carey,1961-11-27,Female,qdrake@example.org,562-847-2749,RN,Intensive Care Unit,19,1,Day,True,False,62071
+287,Russell,Huang,1965-07-17,Male,johnmurray@example.com,001-585-355-2853,RN,Intensive Care Unit,19,1,Night,True,False,61565
+288,Jessica,Tran,1993-09-06,Female,halegregory@example.org,843.502.4737,RN,Intensive Care Unit,19,1,Rotating,True,False,64258
+289,Meghan,Moore,1968-08-18,Female,ujones@example.org,(494)686-3787x2556,RN,Intensive Care Unit,19,1,Night,True,False,73105
+290,Terry,Weaver,1964-07-25,Male,brownnicholas@example.net,681.790.7075x758,RN,Intensive Care Unit,19,1,Night,True,False,65864
+291,Emily,Alexander,1983-08-14,Female,qpeters@example.com,(359)783-5491,RN,Intensive Care Unit,19,1,Night,True,False,70844
+292,Brandon,Armstrong,1963-04-25,Male,reyesjames@example.net,571-409-8384,CNA,Intensive Care Unit,19,1,Night,True,False,74178
+293,Timothy,Velasquez,1992-12-06,Male,ernest53@example.org,(582)885-2844x08414,RN,Intensive Care Unit,19,1,Day,True,False,60209
+294,Christina,Woods,1974-04-25,Female,thomasjeffrey@example.net,(618)738-5617,RN,Intensive Care Unit,19,1,Rotating,True,False,68647
+295,Lauren,Wong,1973-01-09,Female,hcarr@example.com,(535)997-9686,LPN,Intensive Care Unit,19,1,Night,True,True,72417
+296,Barbara,Mccoy,1962-03-05,Female,tylerrose@example.net,(942)235-9589,LPN,Intensive Care Unit,19,1,Day,True,False,69828
+297,Betty,Meyers,1960-08-29,Female,david23@example.org,001-831-653-1199x902,RN,Intensive Care Unit,19,1,Day,True,False,70449
+298,David,Abbott,1984-11-02,Male,xreid@example.net,001-683-699-4165x7802,LPN,Intensive Care Unit,19,1,Night,True,False,72006
+299,Joyce,Chaney,1987-05-16,Female,stevensrobert@example.org,762.699.0842,CNA,Intensive Care Unit,19,1,Night,True,False,72369
+300,Michael,Mcbride,2003-04-30,Male,cantrellkyle@example.net,(492)390-5585,RN,Intensive Care Unit,19,1,Day,True,False,69797
+301,Heather,Hines,1963-06-11,Female,bryan87@example.com,669.457.5834x2483,RN,Intensive Care Unit,19,1,Day,True,False,70564
+302,Robert,Patton,1962-03-18,Male,anthony03@example.net,848-584-5013x6968,RN,Intensive Care Unit,19,1,Day,True,False,58723
+303,Ryan,Ray,1995-09-26,Male,thomaschristie@example.com,6256929855,CNA,Intensive Care Unit,19,1,Rotating,True,False,70141
+304,Brent,Rodriguez,1975-05-01,Male,bmoss@example.net,805.669.8613,RN,Intensive Care Unit,19,1,Rotating,True,False,55845
+305,Daniel,Wilson,1960-12-29,Male,emilyware@example.net,001-221-986-4858x364,RN,Intensive Care Unit,19,1,Day,True,False,74296
+306,Stephanie,Phillips,1995-01-20,Female,millermichael@example.net,6779709665,RN,Intensive Care Unit,19,1,Day,True,False,64304
+307,Robert,Ayala,1999-08-15,Male,carrie77@example.net,+1-819-402-3207x555,RN,Intensive Care Unit,19,1,Night,True,False,70967
+308,Daniel,Delacruz,1991-09-17,Male,nancy05@example.org,902-748-6452x7652,LPN,Intensive Care Unit,19,1,Night,True,False,61235
+309,Katie,Richardson,1964-12-22,Female,nicholsadam@example.com,770-203-3220x2047,RN,Intensive Care Unit,19,1,Night,True,False,66188
+310,Heather,Small,1973-05-15,Female,sheila60@example.com,(826)715-0979x62510,RN,Intensive Care Unit,19,1,Night,True,False,65251
+311,Kurt,Dawson,1986-03-06,Male,nruiz@example.org,001-356-244-3035x93542,RN,Intensive Care Unit,19,1,Day,True,False,67173
+312,Justin,Saunders,2001-03-08,Male,rkrueger@example.com,474-320-7106,LPN,Intensive Care Unit,19,1,Night,True,False,74226
+313,Mark,Smith,1967-12-11,Male,xsmith@example.com,571.704.8339,LPN,Intensive Care Unit,19,1,Night,True,False,57008
+314,Maria,Parks,1993-11-29,Female,brittanyjones@example.com,+1-950-712-2811x32253,RN,Intensive Care Unit,19,1,Day,True,False,65100
+315,Brett,Gutierrez,1969-01-18,Male,shepparddouglas@example.org,001-251-932-6255x954,RN,Intensive Care Unit,19,1,Day,True,False,64107
+316,Julie,Washington,1992-10-03,Female,dmiller@example.com,+1-796-536-3599,CNA,Intensive Care Unit,19,1,Day,True,False,72840
+317,Bryan,Hill,1985-07-31,Male,ihoward@example.org,526.788.9538x1571,LPN,Intensive Care Unit,19,1,Day,True,False,74856
+318,Alejandro,Macias,1961-01-15,Male,katrinamcdaniel@example.net,817.370.0187,LPN,Intensive Care Unit,19,1,Rotating,True,False,55648
+319,Christopher,Schaefer,1969-09-15,Male,kellyhoward@example.com,366.717.2536x78991,RN,Intensive Care Unit,19,1,Rotating,True,False,67586
+320,Mark,Williamson,1983-04-05,Male,lisa92@example.com,846.672.1262x18840,RN,Intensive Care Unit,19,1,Rotating,True,True,60144
+321,Adrian,Scott,1998-01-23,Male,lfoster@example.com,554-339-2464x451,LPN,Neurology,13,3,Day,True,False,64194
+322,Sherry,Jones,1961-03-12,Female,benjamin30@example.org,944-323-8021x3437,RN,Neurology,13,3,Night,True,False,67399
+323,Sarah,Thornton,1996-06-26,Female,gthomas@example.org,(954)208-3546,LPN,Neurology,13,3,Rotating,True,False,57145
+324,Sean,Schneider,1982-01-17,Male,ninadavis@example.com,399-591-3942,CNA,Neurology,13,3,Day,True,False,64442
+325,Jerry,Franco,1986-06-09,Male,emmalandry@example.org,(909)573-1858x0691,RN,Neurology,13,3,Night,True,False,59729
+326,Kyle,Sanchez,1994-02-02,Male,sheakevin@example.net,8853493243,RN,Neurology,13,3,Day,True,False,68316
+327,Jason,Allison,2001-03-25,Male,zlee@example.org,619.340.0619x64100,RN,Neurology,13,3,Day,True,False,74221
+328,Ricardo,Ruiz,1966-07-29,Male,andrew03@example.com,314-951-0614,RN,Neurology,13,3,Rotating,True,True,66007
+329,Ellen,Schmidt,1961-12-14,Female,micheal53@example.net,962-296-8093x2963,RN,Neurology,13,3,Rotating,True,False,72313
+330,Sabrina,Alvarado,2001-01-10,Female,katelyn20@example.org,(522)392-8043x3636,RN,Neurology,13,3,Night,True,False,55101
+331,Julia,Montoya,1993-01-26,Female,aaronwallace@example.net,665.421.8450x23411,RN,Neurology,13,3,Night,True,False,69258
+332,Andrea,Boyer,2003-11-13,Female,mallen@example.net,911-462-9390,RN,Neurology,13,3,Day,True,False,61098
+333,Amanda,James,1992-04-03,Female,halljulian@example.com,001-692-952-3090x0014,LPN,Neurology,13,3,Day,True,False,68142
+334,Alexis,Poole,1977-10-12,Female,sramirez@example.com,831.879.1186x059,RN,Neurology,13,3,Day,True,True,62927
+335,Rachel,Torres,1969-11-06,Female,solomonsharon@example.org,370.401.3841x3658,RN,Neurology,13,3,Night,True,False,73625
+336,Shelley,Reed,1967-03-20,Female,laceydavis@example.net,355-429-0070x7487,RN,Neurology,13,3,Day,True,False,60917
+337,Alan,Glass,1962-12-06,Male,matthewbyrd@example.org,001-874-286-7865x7319,RN,Neurology,13,3,Rotating,True,False,70042
+338,Felicia,Hester,1986-06-19,Female,kaitlyn35@example.org,(463)517-7430,RN,Neurology,13,3,Night,True,False,71850
+339,Dustin,Nash,1982-06-21,Male,bgamble@example.org,492.590.4014x9774,RN,Neurology,13,3,Night,True,False,55167
+340,Todd,Gibson,1980-03-24,Male,matthew41@example.net,(242)519-5773x74777,RN,Neurology,13,3,Night,True,False,71755
+341,Natalie,Patterson,2004-11-09,Female,rickeybraun@example.net,+1-245-829-0056,RN,Oncology,14,2,Night,True,False,70153
+342,Laura,Anderson,1986-09-13,Female,michelletran@example.org,(744)502-5962x08636,RN,Oncology,14,2,Night,True,False,57848
+343,Michael,Lara,1972-06-23,Male,mlawrence@example.org,919-331-1140,RN,Oncology,14,2,Day,True,False,72694
+344,Leslie,Allen,1990-12-30,Female,annamiller@example.net,6122356734,RN,Oncology,14,2,Night,True,False,69253
+345,George,Pruitt,1982-11-10,Male,johnprice@example.com,(735)676-8650,RN,Oncology,14,2,Night,True,False,67657
+346,Nathan,Reyes,1994-03-28,Male,erica33@example.org,+1-281-712-0054x4059,CNA,Oncology,14,2,Day,True,False,66539
+347,Pamela,Johnson,1995-04-25,Female,zbrown@example.com,(256)336-3648x2126,RN,Oncology,14,2,Day,True,False,73492
+348,Kelly,Harrison,1968-11-07,Female,iblake@example.org,+1-995-327-4547x03706,RN,Oncology,14,2,Day,True,False,59755
+349,Mary,Stuart,1979-11-28,Female,kmoss@example.com,+1-331-408-1682x018,RN,Oncology,14,2,Night,True,False,66605
+350,Joe,Barker,1977-05-27,Male,jacquelineroberts@example.org,375.602.5482,RN,Oncology,14,2,Day,True,False,60431
+351,Jessica,Williams,1986-10-21,Female,james04@example.net,(428)237-2923,LPN,Oncology,14,2,Day,True,False,69134
+352,Melissa,Bennett,1968-03-07,Female,gmosley@example.net,+1-554-549-1638x0987,RN,Oncology,14,2,Rotating,True,False,71883
+353,Alvin,Chung,1961-02-14,Male,josephfrench@example.com,913.786.1272,RN,Oncology,14,2,Night,True,False,70796
+354,Suzanne,Lloyd,1973-12-11,Female,daniel04@example.org,653.756.5738x946,RN,Oncology,14,2,Rotating,True,False,59729
+355,Samantha,Scott,1968-01-01,Female,adelgado@example.com,001-485-905-4958x63441,RN,Oncology,14,2,Night,True,False,71971
+356,Donald,Hayes,1982-01-08,Male,diaznancy@example.com,286-727-4488x93240,RN,Oncology,14,2,Rotating,True,False,72730
+357,Elizabeth,Sherman,1994-05-05,Female,boneal@example.com,+1-563-910-1869x8321,RN,Oncology,14,2,Day,True,False,67136
+358,Laura,Gay,1976-08-13,Female,svang@example.net,650-556-4616,RN,Oncology,14,2,Day,True,False,71040
+359,Robert,Adams,1967-11-13,Male,david88@example.org,001-861-236-8225x7128,RN,Oncology,14,2,Night,True,False,68251
+360,Daniel,Green,1981-04-27,Male,wlawrence@example.net,+1-893-246-8550x577,LPN,Oncology,14,2,Rotating,True,False,64000
+361,Amy,Dunlap,1975-02-05,Female,jilliangordon@example.net,+1-542-968-1305,RN,Psychiatry,8,7,Night,True,False,57330
+362,Alexandra,Hardy,1976-05-11,Female,holly37@example.net,606-601-1814x91699,RN,Psychiatry,8,7,Day,True,False,69713
+363,Sharon,Campbell,1986-06-10,Female,gomezjason@example.net,877-448-4313,RN,Psychiatry,8,7,Day,True,False,57208
+364,Matthew,Roberts,1975-12-24,Male,patricia80@example.com,850-791-6586,CNA,Psychiatry,8,7,Rotating,True,False,70676
+365,Heidi,Fisher,1999-10-30,Female,hchavez@example.com,929-318-9672x168,RN,Psychiatry,8,7,Day,True,False,55335
+366,Michelle,Schaefer,1965-10-07,Female,alfred43@example.net,478.202.2420x4315,LPN,Psychiatry,8,7,Day,True,False,60834
+367,Jeff,Young,1977-08-04,Male,pmoore@example.org,5019914780,RN,Psychiatry,8,7,Night,True,False,71462
+368,Scott,Allen,1979-12-11,Male,jmelton@example.org,(517)914-0942x939,RN,Psychiatry,8,7,Day,True,True,67938
+369,Nicole,Hood,2002-07-22,Female,brucebrandt@example.net,982.924.6521,RN,Psychiatry,8,7,Night,True,False,62779
+370,Brad,Nelson,1998-11-15,Male,carolanderson@example.com,(207)512-3420x845,LPN,Psychiatry,8,7,Night,True,False,62561
+371,Angela,Garza,2004-12-11,Female,wkhan@example.net,582-491-9242,RN,Psychiatry,8,7,Night,True,False,58336
+372,Bryan,Carroll,1975-09-20,Male,gknight@example.org,765.663.4485x608,LPN,Psychiatry,8,7,Rotating,True,False,55923
+373,Amanda,Houston,1978-03-31,Female,rbooker@example.net,+1-504-344-2364x54836,RN,Psychiatry,8,7,Night,True,False,66210
+374,Melissa,Fitzpatrick,1967-12-21,Female,kimberly50@example.com,891.596.0725,RN,Psychiatry,8,7,Day,True,False,62976
+375,Curtis,Carlson,1990-08-13,Male,williamsdavid@example.org,001-838-813-1257x3715,CNA,Psychiatry,8,7,Night,True,False,58433
+376,James,Robertson,1977-02-18,Male,melissa35@example.org,407-328-3587x6604,LPN,Psychiatry,8,7,Rotating,True,False,71289
+377,Theresa,Morris,1994-08-02,Female,markwheeler@example.com,469-274-7500,RN,Psychiatry,8,7,Day,True,False,68547
+378,Monica,Wagner,1961-09-13,Female,davidarnold@example.net,(374)947-8504x2898,RN,Psychiatry,8,7,Rotating,True,False,59657
+379,Diane,Hines,2003-06-25,Female,mark16@example.org,+1-739-414-0134,LPN,Psychiatry,8,7,Day,True,False,74423
+380,Alexandra,Coleman,1969-01-13,Female,watsonchristopher@example.com,(960)363-7706x34737,RN,Psychiatry,8,7,Night,True,False,74809
+381,Andrew,Cole,1972-03-02,Male,ktate@example.org,221.413.6500,RN,Endocrinology,3,2,Rotating,True,False,69097
+382,Monique,Sanchez,1961-07-14,Female,susanlewis@example.com,001-201-462-3160x504,RN,Endocrinology,3,2,Night,True,False,69663
+383,Thomas,Smith,1961-07-02,Male,fosterzachary@example.com,+1-204-881-9454x57061,RN,Endocrinology,3,2,Night,True,False,66011
+384,Hannah,Hansen,1972-12-17,Female,brucebrent@example.net,(743)710-5246,RN,Endocrinology,3,2,Day,True,False,56961
+385,Katie,Franklin,1973-01-22,Female,nturner@example.org,431-958-0028,RN,Endocrinology,3,2,Day,True,False,58158
+386,Tara,Collier,1965-06-26,Female,whitematthew@example.net,960-237-4159,RN,Endocrinology,3,2,Night,True,False,70917
+387,Sophia,Lane,1981-12-04,Female,vhoward@example.com,(854)356-5258,RN,Endocrinology,3,2,Night,True,False,72772
+388,Clifford,Harrison,1970-01-16,Male,jorgerodgers@example.org,(681)457-7565,RN,Endocrinology,3,2,Rotating,True,False,63535
+389,Brian,Woods,1968-06-28,Male,robertogreer@example.com,(665)679-7119x95016,LPN,Endocrinology,3,2,Day,True,False,74208
+390,Tasha,Bryan,2003-03-04,Female,matthewjones@example.org,396.770.9843,LPN,Endocrinology,3,2,Night,True,False,68980
+391,Stephanie,Jackson,1963-01-10,Female,ashlee01@example.net,(805)784-3684,RN,Endocrinology,3,2,Day,True,False,69580
+392,Jessica,Allen,1998-06-27,Female,adamsthomas@example.net,(772)450-7710x65788,RN,Endocrinology,3,2,Day,True,False,63772
+393,Sharon,Gray,1971-10-15,Female,brandongriffin@example.com,7086324495,RN,Pulmonology,16,3,Night,True,False,66839
+394,Kristy,Conner,1980-05-08,Female,cnguyen@example.org,001-758-735-2768x02763,LPN,Pulmonology,16,3,Night,True,False,72044
+395,Nicole,Long,2002-07-24,Female,robertlambert@example.net,+1-234-992-7853x770,RN,Pulmonology,16,3,Rotating,True,False,56283
+396,Andrea,Howard,1972-08-05,Female,gerald14@example.net,+1-646-538-9348,RN,Pulmonology,16,3,Day,True,False,64378
+397,Kathleen,Baxter,1964-12-05,Female,castrokathleen@example.com,649.793.1443x974,RN,Pulmonology,16,3,Rotating,True,False,58184
+398,Laura,Burton,2003-01-31,Female,vross@example.net,(827)487-8384,RN,Pulmonology,16,3,Day,True,True,59432
+399,Heather,White,1974-02-12,Female,adamsdawn@example.net,+1-201-279-2812,LPN,Pulmonology,16,3,Day,True,False,71470
+400,Donna,Morrow,1972-12-30,Female,smithsean@example.net,619.893.8029x99825,CNA,Pulmonology,16,3,Day,True,False,64535
+401,Carrie,Osborne,1970-09-18,Female,oatkinson@example.com,887-276-1981,RN,Pulmonology,16,3,Night,True,False,60468
+402,Kimberly,Wagner,1994-08-01,Female,elizabethwarren@example.org,(617)308-1315,RN,Pulmonology,16,3,Day,True,False,73286
+403,Donald,West,1970-05-21,Male,shannonbrock@example.net,(941)584-2581x707,RN,Pulmonology,16,3,Night,True,False,56111
+404,Nicholas,Frey,1994-09-22,Male,christinapittman@example.net,001-205-285-7688x405,RN,Pulmonology,16,3,Night,True,False,62380
+405,Albert,Hughes,1985-07-07,Male,scottmary@example.com,807-332-0661,RN,Urology,4,2,Night,True,False,57913
+406,Ashley,Rogers,1989-09-18,Female,cartercarl@example.net,775-583-7633x01086,RN,Urology,4,2,Night,True,False,62445
+407,Andrew,Miller,1996-01-29,Male,harmonjulie@example.org,001-550-438-0422x5156,RN,Urology,4,2,Rotating,True,False,70708
+408,Krystal,Russell,2003-04-05,Female,browncourtney@example.net,001-665-964-4567,LPN,Urology,4,2,Night,True,False,70332
+409,Michael,Stevens,1975-02-27,Male,yatesdevon@example.com,316.766.0560,LPN,Urology,4,2,Day,True,False,59720
+410,Robert,Glass,1990-10-02,Male,fergusonjesse@example.net,001-707-427-8418,LPN,Urology,4,2,Day,True,False,72679
+411,Alexander,Martinez,1986-08-31,Male,mistyjohnson@example.org,217-770-0305,RN,Urology,4,2,Rotating,True,False,74858
+412,Glenn,Carpenter,1963-06-04,Male,jcampbell@example.com,373.501.4905,LPN,Urology,4,2,Night,True,False,67371
+413,Billy,Scott,1961-01-29,Male,bgarza@example.org,001-249-554-9016,RN,Urology,4,2,Day,True,False,67849
+414,Adam,Davis,1963-09-15,Male,lisagarcia@example.net,001-703-381-1258x6505,RN,Urology,4,2,Day,True,False,71846
+415,Kimberly,Adams,1971-05-11,Female,nmitchell@example.org,001-804-347-4803x276,CNA,Urology,4,2,Day,True,False,63996
+416,Nicholas,Adams,1991-03-17,Male,hernandezevelyn@example.net,001-768-386-2067,LPN,Urology,4,2,Night,True,False,68469
+417,Jonathan,Thomas,1985-06-26,Male,hollowaysarah@example.com,(723)908-2278x493,RN,Neuroskeletal,10,6,Day,True,False,67028
+418,Leah,Griffith,1970-09-09,Female,yfrench@example.com,6326761136,RN,Neuroskeletal,10,6,Night,True,False,73622
+419,Philip,Williams,2003-04-20,Male,michelle54@example.org,747-847-3007x517,LPN,Neuroskeletal,10,6,Rotating,True,False,59827
+420,Andrew,Moreno,1973-02-07,Male,sarakelley@example.net,6649628283,RN,Neuroskeletal,10,6,Rotating,True,False,58663
+421,Anthony,Rowland,1993-05-21,Male,qcarter@example.org,945-808-8824,RN,Neuroskeletal,10,6,Night,True,False,71915
+422,Christopher,Smith,1980-02-21,Male,garciatony@example.com,+1-685-484-1528x8283,RN,Neuroskeletal,10,6,Night,True,False,71857
+423,Sarah,Estes,1998-01-04,Female,michaeladams@example.net,9655081377,LPN,Neuroskeletal,10,6,Day,True,False,60487
+424,Amy,Clark,1979-07-15,Female,ellenbennett@example.org,+1-940-714-6231x676,RN,Neuroskeletal,10,6,Day,True,False,68522
+425,Craig,Knox,1994-02-27,Male,adammartinez@example.net,343.736.6804x38159,RN,Neuroskeletal,10,6,Night,True,False,60926
+426,Jessica,Dominguez,2000-09-10,Female,moralesamanda@example.net,752-541-7938,RN,Neuroskeletal,10,6,Night,True,False,65591
+427,Beth,Gutierrez,1986-10-27,Female,monica77@example.net,812.977.3979,RN,Neuroskeletal,10,6,Day,True,False,58575
+428,Haley,Stokes,2000-03-29,Female,maryhuff@example.net,001-376-876-9737,RN,Neuroskeletal,10,6,Day,True,False,66749
+429,Kara,Cochran,1998-03-03,Female,starkashley@example.org,001-688-590-2423x430,LPN,Orthopedics,11,6,Night,True,False,57750
+430,Carlos,Adams,1985-07-27,Male,ltapia@example.com,(226)834-5116,CNA,Orthopedics,11,6,Day,True,False,56006
+431,Melinda,Webb,1998-04-03,Female,mooredavid@example.com,290.278.6297,LPN,Orthopedics,11,6,Day,True,False,67473
+432,Penny,Jones,2000-10-18,Female,kellymontgomery@example.com,485-983-1017x32196,RN,Orthopedics,11,6,Night,True,False,59585
+433,Lori,Mendez,1991-04-01,Female,burgessrobert@example.net,411-713-5365x670,LPN,Orthopedics,11,6,Night,True,False,74737
+434,Kimberly,Ramirez,2000-02-11,Female,zking@example.com,930.540.2538x40352,RN,Orthopedics,11,6,Night,True,False,65255
+435,Bobby,Weiss,1986-07-01,Male,blakehowell@example.com,001-373-422-3890x2463,RN,Orthopedics,11,6,Rotating,True,False,72816
+436,Alexis,Ramos,1990-08-17,Female,luis48@example.net,(271)989-1259x14679,RN,Orthopedics,11,6,Rotating,True,False,61290
+437,Michael,Gates,1993-10-24,Male,ichandler@example.net,+1-365-498-0298,LPN,Orthopedics,11,6,Night,True,False,59105
+438,Aimee,Peterson,1992-06-18,Female,kathleenstephens@example.org,001-595-292-2279,RN,Orthopedics,11,6,Day,True,False,59474
+439,David,Anderson,1998-04-21,Male,martinezcynthia@example.net,606.738.3651,RN,Orthopedics,11,6,Day,True,False,72819
+440,Luke,Clayton,1988-09-26,Male,aaron86@example.org,2608359761,RN,Orthopedics,11,6,Day,True,False,59307
+441,Mark,Jones,1988-12-04,Male,whitney22@example.com,467.382.8373,RN,Dermatology,2,3,Day,True,False,72177
+442,Matthew,Benitez,1997-06-24,Male,david15@example.net,+1-857-336-7805,RN,Dermatology,2,3,Rotating,True,False,55300
+443,Amy,Moore,1989-08-08,Female,tylerraymond@example.org,6883225842,RN,Dermatology,2,3,Night,True,False,71617
+444,Sonia,Burns,1984-02-13,Female,hurleylindsey@example.org,607.920.4729,RN,Dermatology,2,3,Rotating,True,False,65732
+445,Scott,Lee,2000-10-03,Male,richard46@example.net,495-453-3815,LPN,Dermatology,2,3,Night,True,False,68318
+446,Paula,Cook,2003-07-29,Female,seansexton@example.com,756-492-8609,LPN,Dermatology,2,3,Day,True,False,70285
+447,Mark,Sanders,1990-09-16,Male,elizabeth43@example.com,001-242-695-1769x348,RN,Dermatology,2,3,Day,True,False,58183
+448,Theresa,Monroe,1987-12-09,Female,jenniferyang@example.org,550.582.5051,RN,Dermatology,2,3,Night,True,False,73840
+449,Daniel,Allen,1970-06-17,Male,debrathompson@example.org,304.489.1930,RN,Immunology,7,2,Night,True,False,72536
+450,Aaron,Banks,1984-01-18,Male,emilycollins@example.org,804-360-8583,RN,Immunology,7,2,Night,True,False,58207
+451,Michael,Crawford,1980-07-07,Male,darrell66@example.org,497-615-4719x6869,RN,Immunology,7,2,Day,True,False,69810
+452,Joseph,Moore,1992-01-26,Male,shoffman@example.org,001-755-243-3844x2722,RN,Immunology,7,2,Day,True,False,66861
+453,Morgan,Ball,1997-11-04,Female,maryrodriguez@example.org,2678509662,RN,Immunology,7,2,Day,True,False,59861
+454,Hunter,Stevens,1960-04-30,Male,heather22@example.org,685-657-1258,RN,Immunology,7,2,Night,True,False,57539
+455,Dawn,Moon,1996-09-13,Female,weaverjackson@example.org,891-623-1248x9132,LPN,Immunology,7,2,Rotating,True,False,62340
+456,Brianna,Johnson,1973-06-29,Female,ian88@example.com,635-362-8169x9780,LPN,Immunology,7,2,Rotating,True,False,66566
+457,Scott,Castaneda,1980-01-04,Male,nholmes@example.net,3142226555,LPN,Hematology,6,2,Night,True,False,66865
+458,Rebecca,Johnson,1962-06-09,Female,ericksonmichael@example.com,3213921991,CNA,Hematology,6,2,Day,True,False,65338
+459,Steven,Castro,1965-09-07,Male,joneserin@example.net,845-756-3701x161,RN,Hematology,6,2,Rotating,True,True,63994
+460,Tammy,Smith,1972-05-31,Female,gail22@example.com,(342)506-1116x39041,CNA,Hematology,6,2,Day,True,False,65318
+461,Michael,Mullins,1979-01-06,Male,osmith@example.org,(255)539-6654,RN,Hematology,6,2,Rotating,True,False,72506
+462,Jeffery,Lewis,1997-01-31,Male,johnsonjessica@example.com,(565)336-7255,RN,Hematology,6,2,Night,True,False,74765
+463,Kevin,Johnson,1995-06-05,Male,victoria71@example.org,849-960-8466x18563,RN,Hematology,6,2,Day,True,False,63610
+464,Shirley,Young,1991-03-28,Female,whitneystephen@example.net,+1-512-953-6565x732,RN,Hematology,6,2,Night,True,False,60154
+465,Wendy,Gonzales,1982-12-22,Female,robertfrancis@example.org,5573170910,LPN,Medical Genetics,9,2,Night,True,False,73593
+466,Rose,Perry,1999-10-18,Female,sara31@example.net,(208)620-9429x93972,LPN,Medical Genetics,9,2,Night,True,False,70270
+467,Misty,Burns,1972-09-04,Female,daniel64@example.com,746.512.6625,RN,Medical Genetics,9,2,Day,True,False,56085
+468,Melanie,Kelley,1963-05-02,Female,bruiz@example.com,(553)439-0824,RN,Medical Genetics,9,2,Day,True,False,57593
+469,Michael,Hicks,1985-07-06,Male,christophergraham@example.com,703.503.5224,LPN,Medical Genetics,9,2,Day,True,False,69291
+470,Lisa,Smith,1963-07-27,Female,smithjose@example.net,5222734316,CNA,Medical Genetics,9,2,Rotating,True,False,64714
+471,Sharon,Davis,1963-10-28,Female,chelseasmith@example.org,(516)996-1402x6393,RN,Medical Genetics,9,2,Night,True,False,63045
+472,Mark,Garcia,1963-10-22,Male,marc29@example.org,724-975-3536,RN,Medical Genetics,9,2,Rotating,True,False,64377
+473,Jennifer,Vincent,1999-10-19,Female,louismorrison@example.net,001-308-644-2110x049,RN,Ophthalmology,15,3,Night,True,False,65263
+474,Gabriel,Hughes,1989-05-12,Male,hernandezchad@example.org,927-505-8101,RN,Ophthalmology,15,3,Rotating,True,False,62798
+475,Natalie,Martinez,1995-04-24,Female,perezkaylee@example.org,+1-582-551-3407x70794,LPN,Ophthalmology,15,3,Day,True,False,66396
+476,Sean,Brown,1973-04-02,Male,bridgetsanchez@example.com,924-904-5074,RN,Ophthalmology,15,3,Rotating,True,False,71268
+477,Kimberly,Riley,1975-09-13,Female,lauren17@example.net,848-668-5670,RN,Ophthalmology,15,3,Day,True,False,63281
+478,Sarah,White,1991-11-04,Female,jocelynsimon@example.net,924.242.2488x475,RN,Ophthalmology,15,3,Day,True,False,60162
+479,Laurie,Kane,1975-06-07,Female,robertwatkins@example.com,+1-435-739-9488,LPN,Ophthalmology,15,3,Night,True,False,66676
+480,Whitney,Brewer,1982-12-15,Female,anita85@example.com,393.730.0824x895,CNA,Ophthalmology,15,3,Night,True,False,55132
+481,Yesenia,Novak,2000-04-05,Female,matthewfranco@example.org,660-920-9019x606,LPN,Imaging,25,6,Day,True,False,74934
+482,Felicia,Sparks,1960-09-04,Female,lindsey59@example.com,+1-634-401-9132x058,LPN,Imaging,25,6,Day,True,False,61647
+483,George,King,1964-12-29,Male,rebekah70@example.com,676-253-0832x961,RN,Imaging,25,6,Night,True,False,62678
+484,Thomas,Johnston,1975-06-28,Male,lindagarcia@example.org,(830)271-5788x04782,RN,Imaging,25,6,Night,True,False,60935
+485,Brittany,Chavez,1993-04-23,Female,charles66@example.org,(889)953-7102x1240,RN,Laboratory Services,26,6,Night,True,False,66538
+486,Steven,Valdez,1974-01-06,Male,ywoods@example.net,001-625-761-1325x6177,CNA,Laboratory Services,26,6,Day,True,False,60701
+487,Nicholas,Schneider,1987-12-01,Male,dianehughes@example.com,527-206-4500x3319,RN,Laboratory Services,26,6,Night,True,False,74105
+488,Christopher,Nicholson,1975-05-14,Male,ebird@example.com,(677)936-6107,RN,Laboratory Services,26,6,Day,True,False,67625
